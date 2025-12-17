@@ -1,0 +1,1201 @@
+scenario_id,scenario_probability,disaster_type,hospital_id,hospital_name,capacity_beds,demand,allocation_cost_per_unit,shortage_penalty_per_unit,surge_cost_per_unit,regional_component,idiosyncratic_component
+S0_000,0.013000000000000001,no_disaster,H1,Central Hospital,220,11,2.0,8.0,2.7,0.39,4.7
+S0_000,0.013000000000000001,no_disaster,H2,North Clinic,160,0,2.2,8.0,3.0,-6.61,-9.76
+S0_000,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,0.62,-6.51
+S0_001,0.013000000000000001,no_disaster,H1,Central Hospital,220,1,2.0,8.0,2.7,-0.95,-4.27
+S0_001,0.013000000000000001,no_disaster,H2,North Clinic,160,8,2.2,8.0,3.0,-1.71,4.4
+S0_001,0.013000000000000001,no_disaster,H3,South Medical Center,140,8,1.8,8.0,2.43,0.43,3.89
+S0_002,0.013000000000000001,no_disaster,H1,Central Hospital,220,3,2.0,8.0,2.7,1.13,-4.3
+S0_002,0.013000000000000001,no_disaster,H2,North Clinic,160,9,2.2,8.0,3.0,1.86,1.84
+S0_002,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,-5.11,-4.79
+S0_003,0.013000000000000001,no_disaster,H1,Central Hospital,220,0,2.0,8.0,2.7,-6.75,-3.4
+S0_003,0.013000000000000001,no_disaster,H2,North Clinic,160,6,2.2,8.0,3.0,-5.44,6.11
+S0_003,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,-4.29,-0.77
+S0_004,0.013000000000000001,no_disaster,H1,Central Hospital,220,13,2.0,8.0,2.7,4.78,1.83
+S0_004,0.013000000000000001,no_disaster,H2,North Clinic,160,8,2.2,8.0,3.0,0.61,2.06
+S0_004,0.013000000000000001,no_disaster,H3,South Medical Center,140,9,1.8,8.0,2.43,2.61,2.15
+S0_005,0.013000000000000001,no_disaster,H1,Central Hospital,220,0,2.0,8.0,2.7,-16.67,-4.07
+S0_005,0.013000000000000001,no_disaster,H2,North Clinic,160,0,2.2,8.0,3.0,-13.96,3.08
+S0_005,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,-9.36,5.64
+S0_006,0.013000000000000001,no_disaster,H1,Central Hospital,220,7,2.0,8.0,2.7,-2.0,3.25
+S0_006,0.013000000000000001,no_disaster,H2,North Clinic,160,9,2.2,8.0,3.0,0.05,3.72
+S0_006,0.013000000000000001,no_disaster,H3,South Medical Center,140,12,1.8,8.0,2.43,5.01,2.72
+S0_007,0.013000000000000001,no_disaster,H1,Central Hospital,220,12,2.0,8.0,2.7,5.04,1.09
+S0_007,0.013000000000000001,no_disaster,H2,North Clinic,160,14,2.2,8.0,3.0,4.74,4.36
+S0_007,0.013000000000000001,no_disaster,H3,South Medical Center,140,8,1.8,8.0,2.43,2.62,1.12
+S0_008,0.013000000000000001,no_disaster,H1,Central Hospital,220,5,2.0,8.0,2.7,-3.76,3.16
+S0_008,0.013000000000000001,no_disaster,H2,North Clinic,160,0,2.2,8.0,3.0,-4.82,-7.29
+S0_008,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,-4.45,-1.6
+S0_009,0.013000000000000001,no_disaster,H1,Central Hospital,220,16,2.0,8.0,2.7,2.34,7.47
+S0_009,0.013000000000000001,no_disaster,H2,North Clinic,160,2,2.2,8.0,3.0,1.77,-4.33
+S0_009,0.013000000000000001,no_disaster,H3,South Medical Center,140,14,1.8,8.0,2.43,5.28,4.84
+S0_010,0.013000000000000001,no_disaster,H1,Central Hospital,220,21,2.0,8.0,2.7,12.28,2.93
+S0_010,0.013000000000000001,no_disaster,H2,North Clinic,160,18,2.2,8.0,3.0,9.58,3.56
+S0_010,0.013000000000000001,no_disaster,H3,South Medical Center,140,18,1.8,8.0,2.43,10.06,3.97
+S0_011,0.013000000000000001,no_disaster,H1,Central Hospital,220,10,2.0,8.0,2.7,5.32,-0.96
+S0_011,0.013000000000000001,no_disaster,H2,North Clinic,160,0,2.2,8.0,3.0,-0.92,-6.38
+S0_011,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,1.98,-5.67
+S0_012,0.013000000000000001,no_disaster,H1,Central Hospital,220,16,2.0,8.0,2.7,6.9,3.45
+S0_012,0.013000000000000001,no_disaster,H2,North Clinic,160,10,2.2,8.0,3.0,7.1,-2.14
+S0_012,0.013000000000000001,no_disaster,H3,South Medical Center,140,8,1.8,8.0,2.43,3.03,0.79
+S0_013,0.013000000000000001,no_disaster,H1,Central Hospital,220,0,2.0,8.0,2.7,-2.83,-3.31
+S0_013,0.013000000000000001,no_disaster,H2,North Clinic,160,0,2.2,8.0,3.0,-5.93,-1.82
+S0_013,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,-3.15,-1.91
+S0_014,0.013000000000000001,no_disaster,H1,Central Hospital,220,13,2.0,8.0,2.7,6.76,0.06
+S0_014,0.013000000000000001,no_disaster,H2,North Clinic,160,18,2.2,8.0,3.0,10.17,2.4
+S0_014,0.013000000000000001,no_disaster,H3,South Medical Center,140,12,1.8,8.0,2.43,5.67,2.23
+S0_015,0.013000000000000001,no_disaster,H1,Central Hospital,220,0,2.0,8.0,2.7,-6.07,-0.4
+S0_015,0.013000000000000001,no_disaster,H2,North Clinic,160,0,2.2,8.0,3.0,-3.69,-8.44
+S0_015,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,-2.54,-7.24
+S0_016,0.013000000000000001,no_disaster,H1,Central Hospital,220,12,2.0,8.0,2.7,10.56,-4.53
+S0_016,0.013000000000000001,no_disaster,H2,North Clinic,160,8,2.2,8.0,3.0,4.81,-1.89
+S0_016,0.013000000000000001,no_disaster,H3,South Medical Center,140,20,1.8,8.0,2.43,9.97,6.5
+S0_017,0.013000000000000001,no_disaster,H1,Central Hospital,220,4,2.0,8.0,2.7,-0.66,-1.03
+S0_017,0.013000000000000001,no_disaster,H2,North Clinic,160,7,2.2,8.0,3.0,6.45,-4.75
+S0_017,0.013000000000000001,no_disaster,H3,South Medical Center,140,3,1.8,8.0,2.43,1.04,-1.7
+S0_018,0.013000000000000001,no_disaster,H1,Central Hospital,220,3,2.0,8.0,2.7,-4.42,1.19
+S0_018,0.013000000000000001,no_disaster,H2,North Clinic,160,0,2.2,8.0,3.0,-11.4,-2.97
+S0_018,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,0.65,-7.23
+S0_019,0.013000000000000001,no_disaster,H1,Central Hospital,220,6,2.0,8.0,2.7,0.28,0.11
+S0_019,0.013000000000000001,no_disaster,H2,North Clinic,160,11,2.2,8.0,3.0,-2.51,8.01
+S0_019,0.013000000000000001,no_disaster,H3,South Medical Center,140,4,1.8,8.0,2.43,1.03,-1.2
+S0_020,0.013000000000000001,no_disaster,H1,Central Hospital,220,21,2.0,8.0,2.7,7.88,6.8
+S0_020,0.013000000000000001,no_disaster,H2,North Clinic,160,16,2.2,8.0,3.0,6.68,4.18
+S0_020,0.013000000000000001,no_disaster,H3,South Medical Center,140,10,1.8,8.0,2.43,4.57,1.78
+S0_021,0.013000000000000001,no_disaster,H1,Central Hospital,220,0,2.0,8.0,2.7,-12.38,-4.63
+S0_021,0.013000000000000001,no_disaster,H2,North Clinic,160,0,2.2,8.0,3.0,-11.58,-1.95
+S0_021,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,-2.71,-6.88
+S0_022,0.013000000000000001,no_disaster,H1,Central Hospital,220,0,2.0,8.0,2.7,-9.39,-5.08
+S0_022,0.013000000000000001,no_disaster,H2,North Clinic,160,5,2.2,8.0,3.0,-1.62,1.57
+S0_022,0.013000000000000001,no_disaster,H3,South Medical Center,140,8,1.8,8.0,2.43,-0.08,4.19
+S0_023,0.013000000000000001,no_disaster,H1,Central Hospital,220,0,2.0,8.0,2.7,-12.49,-4.95
+S0_023,0.013000000000000001,no_disaster,H2,North Clinic,160,0,2.2,8.0,3.0,-5.33,-10.66
+S0_023,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,-21.76,1.34
+S0_024,0.013000000000000001,no_disaster,H1,Central Hospital,220,9,2.0,8.0,2.7,3.6,-0.7
+S0_024,0.013000000000000001,no_disaster,H2,North Clinic,160,16,2.2,8.0,3.0,5.36,5.33
+S0_024,0.013000000000000001,no_disaster,H3,South Medical Center,140,12,1.8,8.0,2.43,6.97,0.79
+S0_025,0.013000000000000001,no_disaster,H1,Central Hospital,220,0,2.0,8.0,2.7,-4.56,-2.43
+S0_025,0.013000000000000001,no_disaster,H2,North Clinic,160,6,2.2,8.0,3.0,1.58,-0.27
+S0_025,0.013000000000000001,no_disaster,H3,South Medical Center,140,20,1.8,8.0,2.43,7.44,8.84
+S0_026,0.013000000000000001,no_disaster,H1,Central Hospital,220,0,2.0,8.0,2.7,-2.58,-5.92
+S0_026,0.013000000000000001,no_disaster,H2,North Clinic,160,3,2.2,8.0,3.0,3.09,-4.83
+S0_026,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,-3.24,-3.63
+S0_027,0.013000000000000001,no_disaster,H1,Central Hospital,220,0,2.0,8.0,2.7,-12.02,-4.51
+S0_027,0.013000000000000001,no_disaster,H2,North Clinic,160,0,2.2,8.0,3.0,-17.97,4.66
+S0_027,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,-10.25,1.92
+S0_028,0.013000000000000001,no_disaster,H1,Central Hospital,220,7,2.0,8.0,2.7,-1.12,2.23
+S0_028,0.013000000000000001,no_disaster,H2,North Clinic,160,5,2.2,8.0,3.0,2.29,-2.27
+S0_028,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,2.16,-6.13
+S0_029,0.013000000000000001,no_disaster,H1,Central Hospital,220,21,2.0,8.0,2.7,14.24,0.8
+S0_029,0.013000000000000001,no_disaster,H2,North Clinic,160,10,2.2,8.0,3.0,5.41,-0.59
+S0_029,0.013000000000000001,no_disaster,H3,South Medical Center,140,9,1.8,8.0,2.43,3.56,1.43
+S0_030,0.013000000000000001,no_disaster,H1,Central Hospital,220,1,2.0,8.0,2.7,-10.49,5.53
+S0_030,0.013000000000000001,no_disaster,H2,North Clinic,160,0,2.2,8.0,3.0,-6.94,2.14
+S0_030,0.013000000000000001,no_disaster,H3,South Medical Center,140,5,1.8,8.0,2.43,-7.16,7.68
+S0_031,0.013000000000000001,no_disaster,H1,Central Hospital,220,8,2.0,8.0,2.7,-5.91,8.25
+S0_031,0.013000000000000001,no_disaster,H2,North Clinic,160,12,2.2,8.0,3.0,-1.83,8.62
+S0_031,0.013000000000000001,no_disaster,H3,South Medical Center,140,9,1.8,8.0,2.43,5.69,-0.9
+S0_032,0.013000000000000001,no_disaster,H1,Central Hospital,220,0,2.0,8.0,2.7,-1.04,-4.47
+S0_032,0.013000000000000001,no_disaster,H2,North Clinic,160,17,2.2,8.0,3.0,9.1,3.22
+S0_032,0.013000000000000001,no_disaster,H3,South Medical Center,140,1,1.8,8.0,2.43,-1.02,-1.97
+S0_033,0.013000000000000001,no_disaster,H1,Central Hospital,220,14,2.0,8.0,2.7,1.17,7.04
+S0_033,0.013000000000000001,no_disaster,H2,North Clinic,160,4,2.2,8.0,3.0,-1.16,0.45
+S0_033,0.013000000000000001,no_disaster,H3,South Medical Center,140,7,1.8,8.0,2.43,-0.0,3.22
+S0_034,0.013000000000000001,no_disaster,H1,Central Hospital,220,11,2.0,8.0,2.7,11.45,-6.09
+S0_034,0.013000000000000001,no_disaster,H2,North Clinic,160,16,2.2,8.0,3.0,14.94,-4.39
+S0_034,0.013000000000000001,no_disaster,H3,South Medical Center,140,15,1.8,8.0,2.43,12.85,-1.67
+S0_035,0.013000000000000001,no_disaster,H1,Central Hospital,220,0,2.0,8.0,2.7,-6.3,-2.42
+S0_035,0.013000000000000001,no_disaster,H2,North Clinic,160,0,2.2,8.0,3.0,-9.86,-1.64
+S0_035,0.013000000000000001,no_disaster,H3,South Medical Center,140,9,1.8,8.0,2.43,-0.44,5.01
+S0_036,0.013000000000000001,no_disaster,H1,Central Hospital,220,0,2.0,8.0,2.7,-4.26,-3.48
+S0_036,0.013000000000000001,no_disaster,H2,North Clinic,160,5,2.2,8.0,3.0,0.74,-1.12
+S0_036,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,-7.31,1.21
+S0_037,0.013000000000000001,no_disaster,H1,Central Hospital,220,6,2.0,8.0,2.7,-0.94,1.14
+S0_037,0.013000000000000001,no_disaster,H2,North Clinic,160,13,2.2,8.0,3.0,-4.5,12.59
+S0_037,0.013000000000000001,no_disaster,H3,South Medical Center,140,16,1.8,8.0,2.43,2.64,9.38
+S0_038,0.013000000000000001,no_disaster,H1,Central Hospital,220,4,2.0,8.0,2.7,1.01,-2.95
+S0_038,0.013000000000000001,no_disaster,H2,North Clinic,160,14,2.2,8.0,3.0,7.81,1.58
+S0_038,0.013000000000000001,no_disaster,H3,South Medical Center,140,18,1.8,8.0,2.43,8.25,6.03
+S0_039,0.013000000000000001,no_disaster,H1,Central Hospital,220,3,2.0,8.0,2.7,-2.17,-0.81
+S0_039,0.013000000000000001,no_disaster,H2,North Clinic,160,7,2.2,8.0,3.0,7.4,-5.31
+S0_039,0.013000000000000001,no_disaster,H3,South Medical Center,140,11,1.8,8.0,2.43,10.07,-2.65
+S0_040,0.013000000000000001,no_disaster,H1,Central Hospital,220,0,2.0,8.0,2.7,0.18,-7.34
+S0_040,0.013000000000000001,no_disaster,H2,North Clinic,160,25,2.2,8.0,3.0,9.16,10.65
+S0_040,0.013000000000000001,no_disaster,H3,South Medical Center,140,6,1.8,8.0,2.43,8.24,-6.44
+S0_041,0.013000000000000001,no_disaster,H1,Central Hospital,220,18,2.0,8.0,2.7,17.47,-5.86
+S0_041,0.013000000000000001,no_disaster,H2,North Clinic,160,9,2.2,8.0,3.0,6.26,-1.84
+S0_041,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,-5.56,1.71
+S0_042,0.013000000000000001,no_disaster,H1,Central Hospital,220,0,2.0,8.0,2.7,-12.89,3.89
+S0_042,0.013000000000000001,no_disaster,H2,North Clinic,160,0,2.2,8.0,3.0,-13.55,2.17
+S0_042,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,-5.56,-1.88
+S0_043,0.013000000000000001,no_disaster,H1,Central Hospital,220,5,2.0,8.0,2.7,0.11,-1.33
+S0_043,0.013000000000000001,no_disaster,H2,North Clinic,160,4,2.2,8.0,3.0,-2.63,1.16
+S0_043,0.013000000000000001,no_disaster,H3,South Medical Center,140,7,1.8,8.0,2.43,5.93,-2.78
+S0_044,0.013000000000000001,no_disaster,H1,Central Hospital,220,5,2.0,8.0,2.7,-2.75,1.76
+S0_044,0.013000000000000001,no_disaster,H2,North Clinic,160,5,2.2,8.0,3.0,-0.43,0.27
+S0_044,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,-6.37,0.0
+S0_045,0.013000000000000001,no_disaster,H1,Central Hospital,220,21,2.0,8.0,2.7,4.71,10.47
+S0_045,0.013000000000000001,no_disaster,H2,North Clinic,160,19,2.2,8.0,3.0,5.8,7.87
+S0_045,0.013000000000000001,no_disaster,H3,South Medical Center,140,9,1.8,8.0,2.43,3.01,1.93
+S0_046,0.013000000000000001,no_disaster,H1,Central Hospital,220,17,2.0,8.0,2.7,9.32,1.31
+S0_046,0.013000000000000001,no_disaster,H2,North Clinic,160,7,2.2,8.0,3.0,-0.84,2.4
+S0_046,0.013000000000000001,no_disaster,H3,South Medical Center,140,1,1.8,8.0,2.43,5.91,-8.72
+S0_047,0.013000000000000001,no_disaster,H1,Central Hospital,220,0,2.0,8.0,2.7,-10.21,-2.36
+S0_047,0.013000000000000001,no_disaster,H2,North Clinic,160,4,2.2,8.0,3.0,-2.31,1.32
+S0_047,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,-4.67,0.26
+S0_048,0.013000000000000001,no_disaster,H1,Central Hospital,220,8,2.0,8.0,2.7,1.19,0.76
+S0_048,0.013000000000000001,no_disaster,H2,North Clinic,160,14,2.2,8.0,3.0,2.13,7.36
+S0_048,0.013000000000000001,no_disaster,H3,South Medical Center,140,0,1.8,8.0,2.43,2.4,-12.83
+S0_049,0.013000000000000001,no_disaster,H1,Central Hospital,220,7,2.0,8.0,2.7,2.65,-1.86
+S0_049,0.013000000000000001,no_disaster,H2,North Clinic,160,0,2.2,8.0,3.0,1.42,-8.78
+S0_049,0.013000000000000001,no_disaster,H3,South Medical Center,140,6,1.8,8.0,2.43,0.15,1.64
+S1_000,0.001,mild_flood,H1,Central Hospital,220,49,2.0,8.0,2.7,-9.15,-1.64
+S1_000,0.001,mild_flood,H2,North Clinic,160,27,2.2,8.0,3.0,-17.5,-0.31
+S1_000,0.001,mild_flood,H3,South Medical Center,140,24,1.8,8.0,2.43,-5.63,-5.26
+S1_001,0.001,mild_flood,H1,Central Hospital,220,73,2.0,8.0,2.7,4.31,8.66
+S1_001,0.001,mild_flood,H2,North Clinic,160,56,2.2,8.0,3.0,4.71,5.89
+S1_001,0.001,mild_flood,H3,South Medical Center,140,33,1.8,8.0,2.43,-3.73,2.2
+S1_002,0.001,mild_flood,H1,Central Hospital,220,49,2.0,8.0,2.7,-9.36,-1.48
+S1_002,0.001,mild_flood,H2,North Clinic,160,34,2.2,8.0,3.0,-11.78,0.33
+S1_002,0.001,mild_flood,H3,South Medical Center,140,19,1.8,8.0,2.43,-12.51,-3.49
+S1_003,0.001,mild_flood,H1,Central Hospital,220,55,2.0,8.0,2.7,-4.28,-0.95
+S1_003,0.001,mild_flood,H2,North Clinic,160,39,2.2,8.0,3.0,-11.51,5.86
+S1_003,0.001,mild_flood,H3,South Medical Center,140,36,1.8,8.0,2.43,-2.69,3.75
+S1_004,0.001,mild_flood,H1,Central Hospital,220,42,2.0,8.0,2.7,-17.99,-0.33
+S1_004,0.001,mild_flood,H2,North Clinic,160,33,2.2,8.0,3.0,-6.31,-5.86
+S1_004,0.001,mild_flood,H3,South Medical Center,140,23,1.8,8.0,2.43,-9.68,-2.59
+S1_005,0.001,mild_flood,H1,Central Hospital,220,42,2.0,8.0,2.7,-12.89,-5.07
+S1_005,0.001,mild_flood,H2,North Clinic,160,39,2.2,8.0,3.0,-6.44,0.16
+S1_005,0.001,mild_flood,H3,South Medical Center,140,20,1.8,8.0,2.43,-9.22,-6.08
+S1_006,0.001,mild_flood,H1,Central Hospital,220,72,2.0,8.0,2.7,8.58,3.04
+S1_006,0.001,mild_flood,H2,North Clinic,160,36,2.2,8.0,3.0,2.79,-11.46
+S1_006,0.001,mild_flood,H3,South Medical Center,140,37,1.8,8.0,2.43,0.52,1.52
+S1_007,0.001,mild_flood,H1,Central Hospital,220,55,2.0,8.0,2.7,4.95,-10.32
+S1_007,0.001,mild_flood,H2,North Clinic,160,39,2.2,8.0,3.0,-2.71,-2.96
+S1_007,0.001,mild_flood,H3,South Medical Center,140,33,1.8,8.0,2.43,-4.7,2.95
+S1_008,0.001,mild_flood,H1,Central Hospital,220,77,2.0,8.0,2.7,12.29,4.23
+S1_008,0.001,mild_flood,H2,North Clinic,160,56,2.2,8.0,3.0,13.76,-2.85
+S1_008,0.001,mild_flood,H3,South Medical Center,140,42,1.8,8.0,2.43,2.84,4.07
+S1_009,0.001,mild_flood,H1,Central Hospital,220,55,2.0,8.0,2.7,-6.66,1.35
+S1_009,0.001,mild_flood,H2,North Clinic,160,34,2.2,8.0,3.0,-6.74,-4.32
+S1_009,0.001,mild_flood,H3,South Medical Center,140,27,1.8,8.0,2.43,-7.05,-0.74
+S1_010,0.001,mild_flood,H1,Central Hospital,220,59,2.0,8.0,2.7,4.44,-5.29
+S1_010,0.001,mild_flood,H2,North Clinic,160,44,2.2,8.0,3.0,-0.03,-0.63
+S1_010,0.001,mild_flood,H3,South Medical Center,140,40,1.8,8.0,2.43,-2.28,7.41
+S1_011,0.001,mild_flood,H1,Central Hospital,220,70,2.0,8.0,2.7,5.86,4.22
+S1_011,0.001,mild_flood,H2,North Clinic,160,47,2.2,8.0,3.0,1.99,0.06
+S1_011,0.001,mild_flood,H3,South Medical Center,140,48,1.8,8.0,2.43,6.55,6.64
+S1_012,0.001,mild_flood,H1,Central Hospital,220,68,2.0,8.0,2.7,-4.09,11.64
+S1_012,0.001,mild_flood,H2,North Clinic,160,40,2.2,8.0,3.0,-4.28,-1.03
+S1_012,0.001,mild_flood,H3,South Medical Center,140,16,1.8,8.0,2.43,-8.58,-10.02
+S1_013,0.001,mild_flood,H1,Central Hospital,220,56,2.0,8.0,2.7,-10.83,6.55
+S1_013,0.001,mild_flood,H2,North Clinic,160,25,2.2,8.0,3.0,-11.95,-8.01
+S1_013,0.001,mild_flood,H3,South Medical Center,140,21,1.8,8.0,2.43,-7.35,-6.26
+S1_014,0.001,mild_flood,H1,Central Hospital,220,75,2.0,8.0,2.7,12.64,2.62
+S1_014,0.001,mild_flood,H2,North Clinic,160,54,2.2,8.0,3.0,7.12,1.38
+S1_014,0.001,mild_flood,H3,South Medical Center,140,39,1.8,8.0,2.43,10.71,-7.06
+S1_015,0.001,mild_flood,H1,Central Hospital,220,77,2.0,8.0,2.7,14.52,2.3
+S1_015,0.001,mild_flood,H2,North Clinic,160,65,2.2,8.0,3.0,16.13,3.51
+S1_015,0.001,mild_flood,H3,South Medical Center,140,49,1.8,8.0,2.43,13.25,0.69
+S1_016,0.001,mild_flood,H1,Central Hospital,220,53,2.0,8.0,2.7,-3.51,-3.52
+S1_016,0.001,mild_flood,H2,North Clinic,160,39,2.2,8.0,3.0,-5.39,-0.9
+S1_016,0.001,mild_flood,H3,South Medical Center,140,30,1.8,8.0,2.43,-5.89,0.98
+S1_017,0.001,mild_flood,H1,Central Hospital,220,55,2.0,8.0,2.7,-3.97,-1.33
+S1_017,0.001,mild_flood,H2,North Clinic,160,37,2.2,8.0,3.0,-7.57,-0.59
+S1_017,0.001,mild_flood,H3,South Medical Center,140,35,1.8,8.0,2.43,-4.03,4.15
+S1_018,0.001,mild_flood,H1,Central Hospital,220,57,2.0,8.0,2.7,8.88,-11.67
+S1_018,0.001,mild_flood,H2,North Clinic,160,54,2.2,8.0,3.0,12.29,-3.39
+S1_018,0.001,mild_flood,H3,South Medical Center,140,57,1.8,8.0,2.43,18.01,3.75
+S1_019,0.001,mild_flood,H1,Central Hospital,220,72,2.0,8.0,2.7,5.66,6.64
+S1_019,0.001,mild_flood,H2,North Clinic,160,45,2.2,8.0,3.0,0.1,-0.35
+S1_019,0.001,mild_flood,H3,South Medical Center,140,41,1.8,8.0,2.43,-1.07,6.77
+S1_020,0.001,mild_flood,H1,Central Hospital,220,50,2.0,8.0,2.7,-2.66,-7.4
+S1_020,0.001,mild_flood,H2,North Clinic,160,39,2.2,8.0,3.0,-1.77,-4.44
+S1_020,0.001,mild_flood,H3,South Medical Center,140,37,1.8,8.0,2.43,3.46,-1.79
+S1_021,0.001,mild_flood,H1,Central Hospital,220,52,2.0,8.0,2.7,-10.24,1.96
+S1_021,0.001,mild_flood,H2,North Clinic,160,43,2.2,8.0,3.0,2.76,-5.2
+S1_021,0.001,mild_flood,H3,South Medical Center,140,29,1.8,8.0,2.43,-7.91,2.37
+S1_022,0.001,mild_flood,H1,Central Hospital,220,61,2.0,8.0,2.7,4.02,-3.03
+S1_022,0.001,mild_flood,H2,North Clinic,160,36,2.2,8.0,3.0,-6.47,-2.67
+S1_022,0.001,mild_flood,H3,South Medical Center,140,35,1.8,8.0,2.43,5.43,-5.35
+S1_023,0.001,mild_flood,H1,Central Hospital,220,66,2.0,8.0,2.7,3.93,1.64
+S1_023,0.001,mild_flood,H2,North Clinic,160,53,2.2,8.0,3.0,5.89,1.81
+S1_023,0.001,mild_flood,H3,South Medical Center,140,44,1.8,8.0,2.43,2.42,6.6
+S1_024,0.001,mild_flood,H1,Central Hospital,220,64,2.0,8.0,2.7,5.97,-1.66
+S1_024,0.001,mild_flood,H2,North Clinic,160,46,2.2,8.0,3.0,-4.36,5.57
+S1_024,0.001,mild_flood,H3,South Medical Center,140,42,1.8,8.0,2.43,5.11,1.92
+S1_025,0.001,mild_flood,H1,Central Hospital,220,78,2.0,8.0,2.7,7.5,10.38
+S1_025,0.001,mild_flood,H2,North Clinic,160,43,2.2,8.0,3.0,-2.3,0.35
+S1_025,0.001,mild_flood,H3,South Medical Center,140,32,1.8,8.0,2.43,-3.96,0.8
+S1_026,0.001,mild_flood,H1,Central Hospital,220,53,2.0,8.0,2.7,-6.39,-0.13
+S1_026,0.001,mild_flood,H2,North Clinic,160,36,2.2,8.0,3.0,-10.15,1.57
+S1_026,0.001,mild_flood,H3,South Medical Center,140,27,1.8,8.0,2.43,-3.52,-4.17
+S1_027,0.001,mild_flood,H1,Central Hospital,220,65,2.0,8.0,2.7,7.29,-2.29
+S1_027,0.001,mild_flood,H2,North Clinic,160,50,2.2,8.0,3.0,6.64,-1.47
+S1_027,0.001,mild_flood,H3,South Medical Center,140,63,1.8,8.0,2.43,17.86,9.69
+S1_028,0.001,mild_flood,H1,Central Hospital,220,51,2.0,8.0,2.7,-6.55,-2.04
+S1_028,0.001,mild_flood,H2,North Clinic,160,33,2.2,8.0,3.0,-10.71,-1.42
+S1_028,0.001,mild_flood,H3,South Medical Center,140,33,1.8,8.0,2.43,-3.31,0.93
+S1_029,0.001,mild_flood,H1,Central Hospital,220,54,2.0,8.0,2.7,-0.73,-5.71
+S1_029,0.001,mild_flood,H2,North Clinic,160,38,2.2,8.0,3.0,-7.27,0.03
+S1_029,0.001,mild_flood,H3,South Medical Center,140,44,1.8,8.0,2.43,-4.09,12.99
+S1_030,0.001,mild_flood,H1,Central Hospital,220,62,2.0,8.0,2.7,-1.23,2.9
+S1_030,0.001,mild_flood,H2,North Clinic,160,47,2.2,8.0,3.0,2.54,-0.28
+S1_030,0.001,mild_flood,H3,South Medical Center,140,28,1.8,8.0,2.43,-6.36,-0.85
+S1_031,0.001,mild_flood,H1,Central Hospital,220,66,2.0,8.0,2.7,2.57,3.33
+S1_031,0.001,mild_flood,H2,North Clinic,160,59,2.2,8.0,3.0,8.12,5.43
+S1_031,0.001,mild_flood,H3,South Medical Center,140,41,1.8,8.0,2.43,4.27,1.83
+S1_032,0.001,mild_flood,H1,Central Hospital,220,66,2.0,8.0,2.7,0.96,4.68
+S1_032,0.001,mild_flood,H2,North Clinic,160,40,2.2,8.0,3.0,3.84,-9.16
+S1_032,0.001,mild_flood,H3,South Medical Center,140,34,1.8,8.0,2.43,0.53,-1.68
+S1_033,0.001,mild_flood,H1,Central Hospital,220,83,2.0,8.0,2.7,18.46,4.48
+S1_033,0.001,mild_flood,H2,North Clinic,160,47,2.2,8.0,3.0,5.63,-3.6
+S1_033,0.001,mild_flood,H3,South Medical Center,140,41,1.8,8.0,2.43,13.63,-7.51
+S1_034,0.001,mild_flood,H1,Central Hospital,220,91,2.0,8.0,2.7,28.83,2.17
+S1_034,0.001,mild_flood,H2,North Clinic,160,55,2.2,8.0,3.0,12.45,-2.8
+S1_034,0.001,mild_flood,H3,South Medical Center,140,51,1.8,8.0,2.43,13.76,2.33
+S1_035,0.001,mild_flood,H1,Central Hospital,220,71,2.0,8.0,2.7,11.22,-0.43
+S1_035,0.001,mild_flood,H2,North Clinic,160,58,2.2,8.0,3.0,9.03,3.95
+S1_035,0.001,mild_flood,H3,South Medical Center,140,46,1.8,8.0,2.43,9.37,1.72
+S1_036,0.001,mild_flood,H1,Central Hospital,220,67,2.0,8.0,2.7,-1.64,8.14
+S1_036,0.001,mild_flood,H2,North Clinic,160,32,2.2,8.0,3.0,-8.25,-4.85
+S1_036,0.001,mild_flood,H3,South Medical Center,140,28,1.8,8.0,2.43,-2.85,-4.44
+S1_037,0.001,mild_flood,H1,Central Hospital,220,53,2.0,8.0,2.7,-4.58,-2.21
+S1_037,0.001,mild_flood,H2,North Clinic,160,40,2.2,8.0,3.0,-12.21,7.28
+S1_037,0.001,mild_flood,H3,South Medical Center,140,27,1.8,8.0,2.43,-9.12,0.66
+S1_038,0.001,mild_flood,H1,Central Hospital,220,52,2.0,8.0,2.7,-3.0,-4.71
+S1_038,0.001,mild_flood,H2,North Clinic,160,46,2.2,8.0,3.0,3.66,-2.24
+S1_038,0.001,mild_flood,H3,South Medical Center,140,31,1.8,8.0,2.43,-6.2,2.26
+S1_039,0.001,mild_flood,H1,Central Hospital,220,75,2.0,8.0,2.7,9.11,5.74
+S1_039,0.001,mild_flood,H2,North Clinic,160,46,2.2,8.0,3.0,13.15,-11.97
+S1_039,0.001,mild_flood,H3,South Medical Center,140,38,1.8,8.0,2.43,7.28,-3.93
+S1_040,0.001,mild_flood,H1,Central Hospital,220,72,2.0,8.0,2.7,12.58,-0.9
+S1_040,0.001,mild_flood,H2,North Clinic,160,52,2.2,8.0,3.0,7.99,-1.27
+S1_040,0.001,mild_flood,H3,South Medical Center,140,46,1.8,8.0,2.43,11.63,-0.8
+S1_041,0.001,mild_flood,H1,Central Hospital,220,64,2.0,8.0,2.7,0.95,3.31
+S1_041,0.001,mild_flood,H2,North Clinic,160,41,2.2,8.0,3.0,-5.76,1.93
+S1_041,0.001,mild_flood,H3,South Medical Center,140,39,1.8,8.0,2.43,1.14,2.78
+S1_042,0.001,mild_flood,H1,Central Hospital,220,56,2.0,8.0,2.7,-2.34,-1.54
+S1_042,0.001,mild_flood,H2,North Clinic,160,45,2.2,8.0,3.0,4.2,-3.77
+S1_042,0.001,mild_flood,H3,South Medical Center,140,21,1.8,8.0,2.43,-8.54,-5.16
+S1_043,0.001,mild_flood,H1,Central Hospital,220,70,2.0,8.0,2.7,8.43,1.67
+S1_043,0.001,mild_flood,H2,North Clinic,160,51,2.2,8.0,3.0,5.62,0.26
+S1_043,0.001,mild_flood,H3,South Medical Center,140,41,1.8,8.0,2.43,10.0,-3.83
+S1_044,0.001,mild_flood,H1,Central Hospital,220,50,2.0,8.0,2.7,-6.81,-3.26
+S1_044,0.001,mild_flood,H2,North Clinic,160,44,2.2,8.0,3.0,-3.34,2.74
+S1_044,0.001,mild_flood,H3,South Medical Center,140,29,1.8,8.0,2.43,-7.2,0.94
+S1_045,0.001,mild_flood,H1,Central Hospital,220,66,2.0,8.0,2.7,10.98,-4.5
+S1_045,0.001,mild_flood,H2,North Clinic,160,55,2.2,8.0,3.0,8.62,0.95
+S1_045,0.001,mild_flood,H3,South Medical Center,140,35,1.8,8.0,2.43,7.67,-7.27
+S1_046,0.001,mild_flood,H1,Central Hospital,220,52,2.0,8.0,2.7,-10.15,1.82
+S1_046,0.001,mild_flood,H2,North Clinic,160,28,2.2,8.0,3.0,-4.48,-12.05
+S1_046,0.001,mild_flood,H3,South Medical Center,140,18,1.8,8.0,2.43,-11.18,-5.78
+S1_047,0.001,mild_flood,H1,Central Hospital,220,74,2.0,8.0,2.7,4.45,9.99
+S1_047,0.001,mild_flood,H2,North Clinic,160,36,2.2,8.0,3.0,-2.75,-5.88
+S1_047,0.001,mild_flood,H3,South Medical Center,140,35,1.8,8.0,2.43,4.06,-4.19
+S1_048,0.001,mild_flood,H1,Central Hospital,220,55,2.0,8.0,2.7,-5.75,1.25
+S1_048,0.001,mild_flood,H2,North Clinic,160,60,2.2,8.0,3.0,5.78,9.11
+S1_048,0.001,mild_flood,H3,South Medical Center,140,22,1.8,8.0,2.43,-4.71,-8.26
+S1_049,0.001,mild_flood,H1,Central Hospital,220,71,2.0,8.0,2.7,7.17,4.06
+S1_049,0.001,mild_flood,H2,North Clinic,160,54,2.2,8.0,3.0,8.17,1.21
+S1_049,0.001,mild_flood,H3,South Medical Center,140,36,1.8,8.0,2.43,9.39,-8.87
+S2_000,0.0008,moderate_flood,H1,Central Hospital,220,83,2.0,8.0,2.7,0.7,-3.14
+S2_000,0.0008,moderate_flood,H2,North Clinic,160,54,2.2,8.0,3.0,-7.74,-3.18
+S2_000,0.0008,moderate_flood,H3,South Medical Center,140,45,1.8,8.0,2.43,-3.07,2.71
+S2_001,0.0008,moderate_flood,H1,Central Hospital,220,77,2.0,8.0,2.7,-11.0,2.69
+S2_001,0.0008,moderate_flood,H2,North Clinic,160,60,2.2,8.0,3.0,-0.04,-5.17
+S2_001,0.0008,moderate_flood,H3,South Medical Center,140,43,1.8,8.0,2.43,-2.72,1.18
+S2_002,0.0008,moderate_flood,H1,Central Hospital,220,86,2.0,8.0,2.7,7.21,-6.41
+S2_002,0.0008,moderate_flood,H2,North Clinic,160,81,2.2,8.0,3.0,12.24,3.57
+S2_002,0.0008,moderate_flood,H3,South Medical Center,140,54,1.8,8.0,2.43,7.65,1.21
+S2_003,0.0008,moderate_flood,H1,Central Hospital,220,88,2.0,8.0,2.7,2.81,0.16
+S2_003,0.0008,moderate_flood,H2,North Clinic,160,75,2.2,8.0,3.0,9.15,1.34
+S2_003,0.0008,moderate_flood,H3,South Medical Center,140,41,1.8,8.0,2.43,-0.91,-3.1
+S2_004,0.0008,moderate_flood,H1,Central Hospital,220,87,2.0,8.0,2.7,-4.68,6.81
+S2_004,0.0008,moderate_flood,H2,North Clinic,160,56,2.2,8.0,3.0,-3.73,-5.2
+S2_004,0.0008,moderate_flood,H3,South Medical Center,140,33,1.8,8.0,2.43,0.02,-12.06
+S2_005,0.0008,moderate_flood,H1,Central Hospital,220,63,2.0,8.0,2.7,-12.57,-9.68
+S2_005,0.0008,moderate_flood,H2,North Clinic,160,61,2.2,8.0,3.0,-2.14,-1.55
+S2_005,0.0008,moderate_flood,H3,South Medical Center,140,27,1.8,8.0,2.43,-16.93,-1.43
+S2_006,0.0008,moderate_flood,H1,Central Hospital,220,91,2.0,8.0,2.7,3.27,2.62
+S2_006,0.0008,moderate_flood,H2,North Clinic,160,54,2.2,8.0,3.0,-3.25,-7.47
+S2_006,0.0008,moderate_flood,H3,South Medical Center,140,52,1.8,8.0,2.43,3.88,3.5
+S2_007,0.0008,moderate_flood,H1,Central Hospital,220,69,2.0,8.0,2.7,-15.45,-0.71
+S2_007,0.0008,moderate_flood,H2,North Clinic,160,56,2.2,8.0,3.0,-12.07,3.08
+S2_007,0.0008,moderate_flood,H3,South Medical Center,140,25,1.8,8.0,2.43,-11.2,-8.65
+S2_008,0.0008,moderate_flood,H1,Central Hospital,220,89,2.0,8.0,2.7,5.08,-0.87
+S2_008,0.0008,moderate_flood,H2,North Clinic,160,67,2.2,8.0,3.0,-6.15,8.34
+S2_008,0.0008,moderate_flood,H3,South Medical Center,140,37,1.8,8.0,2.43,-2.82,-5.52
+S2_009,0.0008,moderate_flood,H1,Central Hospital,220,79,2.0,8.0,2.7,-7.02,0.89
+S2_009,0.0008,moderate_flood,H2,North Clinic,160,70,2.2,8.0,3.0,-1.02,6.06
+S2_009,0.0008,moderate_flood,H3,South Medical Center,140,41,1.8,8.0,2.43,-2.77,-1.62
+S2_010,0.0008,moderate_flood,H1,Central Hospital,220,92,2.0,8.0,2.7,8.75,-1.71
+S2_010,0.0008,moderate_flood,H2,North Clinic,160,77,2.2,8.0,3.0,12.83,-0.41
+S2_010,0.0008,moderate_flood,H3,South Medical Center,140,47,1.8,8.0,2.43,10.9,-8.53
+S2_011,0.0008,moderate_flood,H1,Central Hospital,220,82,2.0,8.0,2.7,9.51,-12.82
+S2_011,0.0008,moderate_flood,H2,North Clinic,160,82,2.2,8.0,3.0,12.99,3.92
+S2_011,0.0008,moderate_flood,H3,South Medical Center,140,54,1.8,8.0,2.43,8.07,1.36
+S2_012,0.0008,moderate_flood,H1,Central Hospital,220,95,2.0,8.0,2.7,7.78,1.75
+S2_012,0.0008,moderate_flood,H2,North Clinic,160,76,2.2,8.0,3.0,-1.0,11.91
+S2_012,0.0008,moderate_flood,H3,South Medical Center,140,54,1.8,8.0,2.43,6.99,2.1
+S2_013,0.0008,moderate_flood,H1,Central Hospital,220,88,2.0,8.0,2.7,0.05,3.13
+S2_013,0.0008,moderate_flood,H2,North Clinic,160,67,2.2,8.0,3.0,-4.74,6.26
+S2_013,0.0008,moderate_flood,H3,South Medical Center,140,39,1.8,8.0,2.43,-2.99,-2.61
+S2_014,0.0008,moderate_flood,H1,Central Hospital,220,98,2.0,8.0,2.7,5.7,7.49
+S2_014,0.0008,moderate_flood,H2,North Clinic,160,62,2.2,8.0,3.0,-0.26,-2.29
+S2_014,0.0008,moderate_flood,H3,South Medical Center,140,46,1.8,8.0,2.43,2.63,-2.12
+S2_015,0.0008,moderate_flood,H1,Central Hospital,220,75,2.0,8.0,2.7,1.02,-11.26
+S2_015,0.0008,moderate_flood,H2,North Clinic,160,56,2.2,8.0,3.0,-4.78,-4.13
+S2_015,0.0008,moderate_flood,H3,South Medical Center,140,39,1.8,8.0,2.43,-2.55,-3.91
+S2_016,0.0008,moderate_flood,H1,Central Hospital,220,97,2.0,8.0,2.7,13.08,-1.01
+S2_016,0.0008,moderate_flood,H2,North Clinic,160,85,2.2,8.0,3.0,14.17,5.56
+S2_016,0.0008,moderate_flood,H3,South Medical Center,140,61,1.8,8.0,2.43,17.63,-1.23
+S2_017,0.0008,moderate_flood,H1,Central Hospital,220,91,2.0,8.0,2.7,10.73,-4.88
+S2_017,0.0008,moderate_flood,H2,North Clinic,160,65,2.2,8.0,3.0,4.27,-4.55
+S2_017,0.0008,moderate_flood,H3,South Medical Center,140,52,1.8,8.0,2.43,3.96,2.79
+S2_018,0.0008,moderate_flood,H1,Central Hospital,220,90,2.0,8.0,2.7,1.51,3.51
+S2_018,0.0008,moderate_flood,H2,North Clinic,160,63,2.2,8.0,3.0,3.35,-5.18
+S2_018,0.0008,moderate_flood,H3,South Medical Center,140,44,1.8,8.0,2.43,-1.02,-0.06
+S2_019,0.0008,moderate_flood,H1,Central Hospital,220,85,2.0,8.0,2.7,-3.82,3.43
+S2_019,0.0008,moderate_flood,H2,North Clinic,160,64,2.2,8.0,3.0,1.16,-1.75
+S2_019,0.0008,moderate_flood,H3,South Medical Center,140,48,1.8,8.0,2.43,8.15,-5.11
+S2_020,0.0008,moderate_flood,H1,Central Hospital,220,71,2.0,8.0,2.7,-7.01,-7.48
+S2_020,0.0008,moderate_flood,H2,North Clinic,160,69,2.2,8.0,3.0,8.78,-4.61
+S2_020,0.0008,moderate_flood,H3,South Medical Center,140,53,1.8,8.0,2.43,0.66,7.31
+S2_021,0.0008,moderate_flood,H1,Central Hospital,220,74,2.0,8.0,2.7,-5.81,-5.6
+S2_021,0.0008,moderate_flood,H2,North Clinic,160,70,2.2,8.0,3.0,2.84,2.24
+S2_021,0.0008,moderate_flood,H3,South Medical Center,140,43,1.8,8.0,2.43,-2.18,0.29
+S2_022,0.0008,moderate_flood,H1,Central Hospital,220,83,2.0,8.0,2.7,-2.89,0.79
+S2_022,0.0008,moderate_flood,H2,North Clinic,160,64,2.2,8.0,3.0,-4.69,3.89
+S2_022,0.0008,moderate_flood,H3,South Medical Center,140,46,1.8,8.0,2.43,-2.84,4.04
+S2_023,0.0008,moderate_flood,H1,Central Hospital,220,106,2.0,8.0,2.7,14.65,5.94
+S2_023,0.0008,moderate_flood,H2,North Clinic,160,62,2.2,8.0,3.0,1.81,-5.1
+S2_023,0.0008,moderate_flood,H3,South Medical Center,140,51,1.8,8.0,2.43,14.87,-9.3
+S2_024,0.0008,moderate_flood,H1,Central Hospital,220,93,2.0,8.0,2.7,5.38,2.58
+S2_024,0.0008,moderate_flood,H2,North Clinic,160,61,2.2,8.0,3.0,-1.77,-1.86
+S2_024,0.0008,moderate_flood,H3,South Medical Center,140,34,1.8,8.0,2.43,-6.97,-4.47
+S2_025,0.0008,moderate_flood,H1,Central Hospital,220,92,2.0,8.0,2.7,-3.51,10.24
+S2_025,0.0008,moderate_flood,H2,North Clinic,160,75,2.2,8.0,3.0,1.22,8.93
+S2_025,0.0008,moderate_flood,H3,South Medical Center,140,53,1.8,8.0,2.43,2.78,5.68
+S2_026,0.0008,moderate_flood,H1,Central Hospital,220,96,2.0,8.0,2.7,8.59,2.21
+S2_026,0.0008,moderate_flood,H2,North Clinic,160,78,2.2,8.0,3.0,7.09,6.25
+S2_026,0.0008,moderate_flood,H3,South Medical Center,140,49,1.8,8.0,2.43,0.91,3.18
+S2_027,0.0008,moderate_flood,H1,Central Hospital,220,72,2.0,8.0,2.7,-4.0,-8.92
+S2_027,0.0008,moderate_flood,H2,North Clinic,160,62,2.2,8.0,3.0,-3.66,0.42
+S2_027,0.0008,moderate_flood,H3,South Medical Center,140,35,1.8,8.0,2.43,-6.86,-2.78
+S2_028,0.0008,moderate_flood,H1,Central Hospital,220,107,2.0,8.0,2.7,14.78,6.8
+S2_028,0.0008,moderate_flood,H2,North Clinic,160,76,2.2,8.0,3.0,9.5,1.28
+S2_028,0.0008,moderate_flood,H3,South Medical Center,140,50,1.8,8.0,2.43,-1.94,6.75
+S2_029,0.0008,moderate_flood,H1,Central Hospital,220,83,2.0,8.0,2.7,-3.77,1.98
+S2_029,0.0008,moderate_flood,H2,North Clinic,160,68,2.2,8.0,3.0,2.85,0.3
+S2_029,0.0008,moderate_flood,H3,South Medical Center,140,40,1.8,8.0,2.43,1.17,-6.51
+S2_030,0.0008,moderate_flood,H1,Central Hospital,220,96,2.0,8.0,2.7,6.42,4.47
+S2_030,0.0008,moderate_flood,H2,North Clinic,160,61,2.2,8.0,3.0,-3.74,0.06
+S2_030,0.0008,moderate_flood,H3,South Medical Center,140,44,1.8,8.0,2.43,-2.64,1.24
+S2_031,0.0008,moderate_flood,H1,Central Hospital,220,80,2.0,8.0,2.7,-3.96,-0.76
+S2_031,0.0008,moderate_flood,H2,North Clinic,160,63,2.2,8.0,3.0,1.43,-3.73
+S2_031,0.0008,moderate_flood,H3,South Medical Center,140,41,1.8,8.0,2.43,2.39,-6.25
+S2_032,0.0008,moderate_flood,H1,Central Hospital,220,75,2.0,8.0,2.7,-9.59,-0.61
+S2_032,0.0008,moderate_flood,H2,North Clinic,160,72,2.2,8.0,3.0,1.64,4.98
+S2_032,0.0008,moderate_flood,H3,South Medical Center,140,49,1.8,8.0,2.43,-0.97,5.3
+S2_033,0.0008,moderate_flood,H1,Central Hospital,220,70,2.0,8.0,2.7,-10.0,-5.42
+S2_033,0.0008,moderate_flood,H2,North Clinic,160,62,2.2,8.0,3.0,-4.73,1.72
+S2_033,0.0008,moderate_flood,H3,South Medical Center,140,43,1.8,8.0,2.43,-4.23,1.9
+S2_034,0.0008,moderate_flood,H1,Central Hospital,220,69,2.0,8.0,2.7,-9.41,-6.22
+S2_034,0.0008,moderate_flood,H2,North Clinic,160,59,2.2,8.0,3.0,-4.85,-1.6
+S2_034,0.0008,moderate_flood,H3,South Medical Center,140,35,1.8,8.0,2.43,-10.61,1.09
+S2_035,0.0008,moderate_flood,H1,Central Hospital,220,85,2.0,8.0,2.7,2.25,-2.52
+S2_035,0.0008,moderate_flood,H2,North Clinic,160,61,2.2,8.0,3.0,-0.91,-3.14
+S2_035,0.0008,moderate_flood,H3,South Medical Center,140,49,1.8,8.0,2.43,2.66,1.56
+S2_036,0.0008,moderate_flood,H1,Central Hospital,220,83,2.0,8.0,2.7,3.73,-5.7
+S2_036,0.0008,moderate_flood,H2,North Clinic,160,65,2.2,8.0,3.0,2.73,-2.41
+S2_036,0.0008,moderate_flood,H3,South Medical Center,140,53,1.8,8.0,2.43,0.86,7.19
+S2_037,0.0008,moderate_flood,H1,Central Hospital,220,87,2.0,8.0,2.7,1.8,0.15
+S2_037,0.0008,moderate_flood,H2,North Clinic,160,70,2.2,8.0,3.0,5.33,0.15
+S2_037,0.0008,moderate_flood,H3,South Medical Center,140,61,1.8,8.0,2.43,17.01,-0.59
+S2_038,0.0008,moderate_flood,H1,Central Hospital,220,86,2.0,8.0,2.7,-7.16,7.81
+S2_038,0.0008,moderate_flood,H2,North Clinic,160,43,2.2,8.0,3.0,-16.5,-5.64
+S2_038,0.0008,moderate_flood,H3,South Medical Center,140,45,1.8,8.0,2.43,1.96,-1.9
+S2_039,0.0008,moderate_flood,H1,Central Hospital,220,96,2.0,8.0,2.7,4.14,7.14
+S2_039,0.0008,moderate_flood,H2,North Clinic,160,77,2.2,8.0,3.0,2.97,9.19
+S2_039,0.0008,moderate_flood,H3,South Medical Center,140,51,1.8,8.0,2.43,7.8,-1.68
+S2_040,0.0008,moderate_flood,H1,Central Hospital,220,77,2.0,8.0,2.7,-7.37,-0.47
+S2_040,0.0008,moderate_flood,H2,North Clinic,160,50,2.2,8.0,3.0,-15.98,0.66
+S2_040,0.0008,moderate_flood,H3,South Medical Center,140,33,1.8,8.0,2.43,-13.63,1.83
+S2_041,0.0008,moderate_flood,H1,Central Hospital,220,65,2.0,8.0,2.7,-24.54,4.84
+S2_041,0.0008,moderate_flood,H2,North Clinic,160,47,2.2,8.0,3.0,-16.6,-1.81
+S2_041,0.0008,moderate_flood,H3,South Medical Center,140,24,1.8,8.0,2.43,-19.04,-2.45
+S2_042,0.0008,moderate_flood,H1,Central Hospital,220,80,2.0,8.0,2.7,-5.4,0.07
+S2_042,0.0008,moderate_flood,H2,North Clinic,160,60,2.2,8.0,3.0,-6.39,1.68
+S2_042,0.0008,moderate_flood,H3,South Medical Center,140,42,1.8,8.0,2.43,-5.56,2.12
+S2_043,0.0008,moderate_flood,H1,Central Hospital,220,88,2.0,8.0,2.7,10.2,-7.21
+S2_043,0.0008,moderate_flood,H2,North Clinic,160,81,2.2,8.0,3.0,16.58,-0.29
+S2_043,0.0008,moderate_flood,H3,South Medical Center,140,55,1.8,8.0,2.43,10.0,0.42
+S2_044,0.0008,moderate_flood,H1,Central Hospital,220,83,2.0,8.0,2.7,0.32,-2.03
+S2_044,0.0008,moderate_flood,H2,North Clinic,160,72,2.2,8.0,3.0,9.78,-2.92
+S2_044,0.0008,moderate_flood,H3,South Medical Center,140,48,1.8,8.0,2.43,3.28,-0.23
+S2_045,0.0008,moderate_flood,H1,Central Hospital,220,86,2.0,8.0,2.7,0.49,0.32
+S2_045,0.0008,moderate_flood,H2,North Clinic,160,49,2.2,8.0,3.0,-6.29,-9.46
+S2_045,0.0008,moderate_flood,H3,South Medical Center,140,36,1.8,8.0,2.43,0.69,-9.79
+S2_046,0.0008,moderate_flood,H1,Central Hospital,220,85,2.0,8.0,2.7,-0.27,-0.14
+S2_046,0.0008,moderate_flood,H2,North Clinic,160,66,2.2,8.0,3.0,-0.34,1.13
+S2_046,0.0008,moderate_flood,H3,South Medical Center,140,51,1.8,8.0,2.43,1.02,4.74
+S2_047,0.0008,moderate_flood,H1,Central Hospital,220,90,2.0,8.0,2.7,4.04,1.44
+S2_047,0.0008,moderate_flood,H2,North Clinic,160,77,2.2,8.0,3.0,6.12,6.22
+S2_047,0.0008,moderate_flood,H3,South Medical Center,140,55,1.8,8.0,2.43,12.08,-2.16
+S2_048,0.0008,moderate_flood,H1,Central Hospital,220,97,2.0,8.0,2.7,14.61,-2.79
+S2_048,0.0008,moderate_flood,H2,North Clinic,160,76,2.2,8.0,3.0,13.02,-2.04
+S2_048,0.0008,moderate_flood,H3,South Medical Center,140,66,1.8,8.0,2.43,21.05,0.19
+S2_049,0.0008,moderate_flood,H1,Central Hospital,220,81,2.0,8.0,2.7,-0.09,-4.31
+S2_049,0.0008,moderate_flood,H2,North Clinic,160,74,2.2,8.0,3.0,6.52,2.39
+S2_049,0.0008,moderate_flood,H3,South Medical Center,140,37,1.8,8.0,2.43,-0.74,-7.68
+S3_000,0.001,earthquake,H1,Central Hospital,220,115,2.0,8.0,2.7,-3.21,7.94
+S3_000,0.001,earthquake,H2,North Clinic,160,80,2.2,8.0,3.0,-1.91,-3.11
+S3_000,0.001,earthquake,H3,South Medical Center,140,73,1.8,8.0,2.43,-2.22,10.3
+S3_001,0.001,earthquake,H1,Central Hospital,220,106,2.0,8.0,2.7,1.79,-5.38
+S3_001,0.001,earthquake,H2,North Clinic,160,79,2.2,8.0,3.0,-2.41,-3.76
+S3_001,0.001,earthquake,H3,South Medical Center,140,73,1.8,8.0,2.43,5.54,1.99
+S3_002,0.001,earthquake,H1,Central Hospital,220,115,2.0,8.0,2.7,-0.55,5.79
+S3_002,0.001,earthquake,H2,North Clinic,160,85,2.2,8.0,3.0,-7.52,7.18
+S3_002,0.001,earthquake,H3,South Medical Center,140,65,1.8,8.0,2.43,-2.62,2.65
+S3_003,0.001,earthquake,H1,Central Hospital,220,95,2.0,8.0,2.7,-10.6,-4.34
+S3_003,0.001,earthquake,H2,North Clinic,160,72,2.2,8.0,3.0,-13.63,0.6
+S3_003,0.001,earthquake,H3,South Medical Center,140,62,1.8,8.0,2.43,-0.34,-2.86
+S3_004,0.001,earthquake,H1,Central Hospital,220,113,2.0,8.0,2.7,0.61,2.07
+S3_004,0.001,earthquake,H2,North Clinic,160,91,2.2,8.0,3.0,6.92,-1.16
+S3_004,0.001,earthquake,H3,South Medical Center,140,60,1.8,8.0,2.43,-5.33,0.38
+S3_005,0.001,earthquake,H1,Central Hospital,220,122,2.0,8.0,2.7,3.89,8.24
+S3_005,0.001,earthquake,H2,North Clinic,160,85,2.2,8.0,3.0,-1.22,1.55
+S3_005,0.001,earthquake,H3,South Medical Center,140,64,1.8,8.0,2.43,-3.66,2.95
+S3_006,0.001,earthquake,H1,Central Hospital,220,126,2.0,8.0,2.7,11.2,4.33
+S3_006,0.001,earthquake,H2,North Clinic,160,91,2.2,8.0,3.0,5.19,1.06
+S3_006,0.001,earthquake,H3,South Medical Center,140,74,1.8,8.0,2.43,4.91,4.43
+S3_007,0.001,earthquake,H1,Central Hospital,220,106,2.0,8.0,2.7,-2.43,-1.78
+S3_007,0.001,earthquake,H2,North Clinic,160,86,2.2,8.0,3.0,-0.3,1.68
+S3_007,0.001,earthquake,H3,South Medical Center,140,43,1.8,8.0,2.43,-7.36,-14.65
+S3_008,0.001,earthquake,H1,Central Hospital,220,104,2.0,8.0,2.7,-8.53,2.26
+S3_008,0.001,earthquake,H2,North Clinic,160,78,2.2,8.0,3.0,-9.43,2.39
+S3_008,0.001,earthquake,H3,South Medical Center,140,73,1.8,8.0,2.43,13.66,-5.81
+S3_009,0.001,earthquake,H1,Central Hospital,220,125,2.0,8.0,2.7,3.35,11.21
+S3_009,0.001,earthquake,H2,North Clinic,160,95,2.2,8.0,3.0,9.64,-0.01
+S3_009,0.001,earthquake,H3,South Medical Center,140,67,1.8,8.0,2.43,-0.02,2.04
+S3_010,0.001,earthquake,H1,Central Hospital,220,95,2.0,8.0,2.7,-14.65,-0.55
+S3_010,0.001,earthquake,H2,North Clinic,160,77,2.2,8.0,3.0,-7.95,-0.18
+S3_010,0.001,earthquake,H3,South Medical Center,140,51,1.8,8.0,2.43,-7.49,-6.82
+S3_011,0.001,earthquake,H1,Central Hospital,220,115,2.0,8.0,2.7,4.89,0.17
+S3_011,0.001,earthquake,H2,North Clinic,160,81,2.2,8.0,3.0,-2.48,-1.41
+S3_011,0.001,earthquake,H3,South Medical Center,140,67,1.8,8.0,2.43,2.33,-0.53
+S3_012,0.001,earthquake,H1,Central Hospital,220,100,2.0,8.0,2.7,-4.92,-5.21
+S3_012,0.001,earthquake,H2,North Clinic,160,93,2.2,8.0,3.0,2.49,5.52
+S3_012,0.001,earthquake,H3,South Medical Center,140,61,1.8,8.0,2.43,-1.58,-2.06
+S3_013,0.001,earthquake,H1,Central Hospital,220,114,2.0,8.0,2.7,11.45,-7.65
+S3_013,0.001,earthquake,H2,North Clinic,160,96,2.2,8.0,3.0,9.48,1.15
+S3_013,0.001,earthquake,H3,South Medical Center,140,74,1.8,8.0,2.43,5.36,3.68
+S3_014,0.001,earthquake,H1,Central Hospital,220,104,2.0,8.0,2.7,-7.34,1.66
+S3_014,0.001,earthquake,H2,North Clinic,160,86,2.2,8.0,3.0,2.41,-1.51
+S3_014,0.001,earthquake,H3,South Medical Center,140,61,1.8,8.0,2.43,-1.74,-2.41
+S3_015,0.001,earthquake,H1,Central Hospital,220,117,2.0,8.0,2.7,0.0,6.57
+S3_015,0.001,earthquake,H2,North Clinic,160,79,2.2,8.0,3.0,-5.16,-0.55
+S3_015,0.001,earthquake,H3,South Medical Center,140,54,1.8,8.0,2.43,-13.08,1.76
+S3_016,0.001,earthquake,H1,Central Hospital,220,109,2.0,8.0,2.7,-4.9,4.12
+S3_016,0.001,earthquake,H2,North Clinic,160,80,2.2,8.0,3.0,-4.89,-0.3
+S3_016,0.001,earthquake,H3,South Medical Center,140,57,1.8,8.0,2.43,-4.84,-3.65
+S3_017,0.001,earthquake,H1,Central Hospital,220,115,2.0,8.0,2.7,2.91,1.7
+S3_017,0.001,earthquake,H2,North Clinic,160,93,2.2,8.0,3.0,4.53,3.35
+S3_017,0.001,earthquake,H3,South Medical Center,140,63,1.8,8.0,2.43,0.05,-1.87
+S3_018,0.001,earthquake,H1,Central Hospital,220,108,2.0,8.0,2.7,-9.43,7.21
+S3_018,0.001,earthquake,H2,North Clinic,160,81,2.2,8.0,3.0,-1.16,-2.5
+S3_018,0.001,earthquake,H3,South Medical Center,140,53,1.8,8.0,2.43,-3.25,-8.28
+S3_019,0.001,earthquake,H1,Central Hospital,220,116,2.0,8.0,2.7,7.45,-1.37
+S3_019,0.001,earthquake,H2,North Clinic,160,87,2.2,8.0,3.0,3.68,-1.68
+S3_019,0.001,earthquake,H3,South Medical Center,140,77,1.8,8.0,2.43,9.16,3.1
+S3_020,0.001,earthquake,H1,Central Hospital,220,112,2.0,8.0,2.7,-0.98,3.08
+S3_020,0.001,earthquake,H2,North Clinic,160,72,2.2,8.0,3.0,-2.16,-10.54
+S3_020,0.001,earthquake,H3,South Medical Center,140,59,1.8,8.0,2.43,-3.68,-1.82
+S3_021,0.001,earthquake,H1,Central Hospital,220,130,2.0,8.0,2.7,15.19,5.23
+S3_021,0.001,earthquake,H2,North Clinic,160,105,2.2,8.0,3.0,14.24,5.94
+S3_021,0.001,earthquake,H3,South Medical Center,140,78,1.8,8.0,2.43,11.78,1.01
+S3_022,0.001,earthquake,H1,Central Hospital,220,112,2.0,8.0,2.7,1.71,-0.01
+S3_022,0.001,earthquake,H2,North Clinic,160,96,2.2,8.0,3.0,5.78,4.93
+S3_022,0.001,earthquake,H3,South Medical Center,140,64,1.8,8.0,2.43,1.98,-2.79
+S3_023,0.001,earthquake,H1,Central Hospital,220,106,2.0,8.0,2.7,-8.83,4.87
+S3_023,0.001,earthquake,H2,North Clinic,160,87,2.2,8.0,3.0,-1.21,3.49
+S3_023,0.001,earthquake,H3,South Medical Center,140,60,1.8,8.0,2.43,-5.05,0.51
+S3_024,0.001,earthquake,H1,Central Hospital,220,116,2.0,8.0,2.7,3.49,2.71
+S3_024,0.001,earthquake,H2,North Clinic,160,84,2.2,8.0,3.0,3.58,-4.78
+S3_024,0.001,earthquake,H3,South Medical Center,140,75,1.8,8.0,2.43,8.1,2.19
+S3_025,0.001,earthquake,H1,Central Hospital,220,131,2.0,8.0,2.7,9.03,12.23
+S3_025,0.001,earthquake,H2,North Clinic,160,85,2.2,8.0,3.0,7.21,-6.89
+S3_025,0.001,earthquake,H3,South Medical Center,140,80,1.8,8.0,2.43,7.29,7.36
+S3_026,0.001,earthquake,H1,Central Hospital,220,112,2.0,8.0,2.7,-0.64,2.22
+S3_026,0.001,earthquake,H2,North Clinic,160,84,2.2,8.0,3.0,-0.02,-0.77
+S3_026,0.001,earthquake,H3,South Medical Center,140,70,1.8,8.0,2.43,-2.46,7.27
+S3_027,0.001,earthquake,H1,Central Hospital,220,111,2.0,8.0,2.7,1.02,-0.3
+S3_027,0.001,earthquake,H2,North Clinic,160,87,2.2,8.0,3.0,7.63,-5.36
+S3_027,0.001,earthquake,H3,South Medical Center,140,67,1.8,8.0,2.43,-0.3,2.28
+S3_028,0.001,earthquake,H1,Central Hospital,220,94,2.0,8.0,2.7,-10.74,-5.57
+S3_028,0.001,earthquake,H2,North Clinic,160,75,2.2,8.0,3.0,-9.17,-1.15
+S3_028,0.001,earthquake,H3,South Medical Center,140,50,1.8,8.0,2.43,-7.26,-7.96
+S3_029,0.001,earthquake,H1,Central Hospital,220,135,2.0,8.0,2.7,10.82,14.05
+S3_029,0.001,earthquake,H2,North Clinic,160,86,2.2,8.0,3.0,3.76,-2.93
+S3_029,0.001,earthquake,H3,South Medical Center,140,74,1.8,8.0,2.43,1.85,7.18
+S3_030,0.001,earthquake,H1,Central Hospital,220,110,2.0,8.0,2.7,-0.24,0.31
+S3_030,0.001,earthquake,H2,North Clinic,160,83,2.2,8.0,3.0,-2.94,0.55
+S3_030,0.001,earthquake,H3,South Medical Center,140,61,1.8,8.0,2.43,-1.57,-2.04
+S3_031,0.001,earthquake,H1,Central Hospital,220,121,2.0,8.0,2.7,11.93,-1.38
+S3_031,0.001,earthquake,H2,North Clinic,160,85,2.2,8.0,3.0,3.16,-2.98
+S3_031,0.001,earthquake,H3,South Medical Center,140,77,1.8,8.0,2.43,11.83,0.04
+S3_032,0.001,earthquake,H1,Central Hospital,220,108,2.0,8.0,2.7,-7.75,6.13
+S3_032,0.001,earthquake,H2,North Clinic,160,90,2.2,8.0,3.0,-3.22,7.9
+S3_032,0.001,earthquake,H3,South Medical Center,140,64,1.8,8.0,2.43,-3.8,2.47
+S3_033,0.001,earthquake,H1,Central Hospital,220,110,2.0,8.0,2.7,-2.96,3.07
+S3_033,0.001,earthquake,H2,North Clinic,160,83,2.2,8.0,3.0,-5.1,2.99
+S3_033,0.001,earthquake,H3,South Medical Center,140,56,1.8,8.0,2.43,-11.64,2.6
+S3_034,0.001,earthquake,H1,Central Hospital,220,109,2.0,8.0,2.7,3.09,-3.97
+S3_034,0.001,earthquake,H2,North Clinic,160,104,2.2,8.0,3.0,12.04,6.52
+S3_034,0.001,earthquake,H3,South Medical Center,140,75,1.8,8.0,2.43,5.96,4.2
+S3_035,0.001,earthquake,H1,Central Hospital,220,95,2.0,8.0,2.7,-14.26,-1.2
+S3_035,0.001,earthquake,H2,North Clinic,160,78,2.2,8.0,3.0,-7.97,0.51
+S3_035,0.001,earthquake,H3,South Medical Center,140,60,1.8,8.0,2.43,-5.12,0.39
+S3_036,0.001,earthquake,H1,Central Hospital,220,98,2.0,8.0,2.7,-6.72,-4.94
+S3_036,0.001,earthquake,H2,North Clinic,160,78,2.2,8.0,3.0,-9.15,2.25
+S3_036,0.001,earthquake,H3,South Medical Center,140,59,1.8,8.0,2.43,-5.55,0.02
+S3_037,0.001,earthquake,H1,Central Hospital,220,113,2.0,8.0,2.7,4.6,-1.35
+S3_037,0.001,earthquake,H2,North Clinic,160,98,2.2,8.0,3.0,4.56,8.86
+S3_037,0.001,earthquake,H3,South Medical Center,140,70,1.8,8.0,2.43,5.24,-0.49
+S3_038,0.001,earthquake,H1,Central Hospital,220,107,2.0,8.0,2.7,-1.34,-1.32
+S3_038,0.001,earthquake,H2,North Clinic,160,79,2.2,8.0,3.0,-2.62,-3.43
+S3_038,0.001,earthquake,H3,South Medical Center,140,82,1.8,8.0,2.43,10.21,6.91
+S3_039,0.001,earthquake,H1,Central Hospital,220,112,2.0,8.0,2.7,1.37,0.19
+S3_039,0.001,earthquake,H2,North Clinic,160,89,2.2,8.0,3.0,4.69,-0.44
+S3_039,0.001,earthquake,H3,South Medical Center,140,61,1.8,8.0,2.43,-3.69,0.02
+S3_040,0.001,earthquake,H1,Central Hospital,220,89,2.0,8.0,2.7,-18.77,-2.72
+S3_040,0.001,earthquake,H2,North Clinic,160,71,2.2,8.0,3.0,-13.62,0.07
+S3_040,0.001,earthquake,H3,South Medical Center,140,71,1.8,8.0,2.43,2.24,3.45
+S3_041,0.001,earthquake,H1,Central Hospital,220,115,2.0,8.0,2.7,0.13,5.15
+S3_041,0.001,earthquake,H2,North Clinic,160,80,2.2,8.0,3.0,-6.36,0.92
+S3_041,0.001,earthquake,H3,South Medical Center,140,67,1.8,8.0,2.43,-3.06,4.81
+S3_042,0.001,earthquake,H1,Central Hospital,220,111,2.0,8.0,2.7,0.45,0.55
+S3_042,0.001,earthquake,H2,North Clinic,160,80,2.2,8.0,3.0,-4.89,0.01
+S3_042,0.001,earthquake,H3,South Medical Center,140,72,1.8,8.0,2.43,-0.78,7.36
+S3_043,0.001,earthquake,H1,Central Hospital,220,121,2.0,8.0,2.7,13.07,-1.82
+S3_043,0.001,earthquake,H2,North Clinic,160,98,2.2,8.0,3.0,14.28,-1.27
+S3_043,0.001,earthquake,H3,South Medical Center,140,78,1.8,8.0,2.43,20.41,-7.54
+S3_044,0.001,earthquake,H1,Central Hospital,220,134,2.0,8.0,2.7,15.15,9.01
+S3_044,0.001,earthquake,H2,North Clinic,160,82,2.2,8.0,3.0,-1.37,-2.06
+S3_044,0.001,earthquake,H3,South Medical Center,140,67,1.8,8.0,2.43,4.0,-1.82
+S3_045,0.001,earthquake,H1,Central Hospital,220,113,2.0,8.0,2.7,7.6,-4.99
+S3_045,0.001,earthquake,H2,North Clinic,160,87,2.2,8.0,3.0,2.13,-0.42
+S3_045,0.001,earthquake,H3,South Medical Center,140,70,1.8,8.0,2.43,13.11,-8.0
+S3_046,0.001,earthquake,H1,Central Hospital,220,119,2.0,8.0,2.7,6.55,2.09
+S3_046,0.001,earthquake,H2,North Clinic,160,83,2.2,8.0,3.0,4.59,-6.6
+S3_046,0.001,earthquake,H3,South Medical Center,140,72,1.8,8.0,2.43,2.99,4.27
+S3_047,0.001,earthquake,H1,Central Hospital,220,109,2.0,8.0,2.7,5.55,-6.88
+S3_047,0.001,earthquake,H2,North Clinic,160,90,2.2,8.0,3.0,7.05,-1.58
+S3_047,0.001,earthquake,H3,South Medical Center,140,69,1.8,8.0,2.43,2.18,1.83
+S3_048,0.001,earthquake,H1,Central Hospital,220,116,2.0,8.0,2.7,0.89,5.04
+S3_048,0.001,earthquake,H2,North Clinic,160,76,2.2,8.0,3.0,-7.65,-1.28
+S3_048,0.001,earthquake,H3,South Medical Center,140,63,1.8,8.0,2.43,-5.58,3.75
+S3_049,0.001,earthquake,H1,Central Hospital,220,88,2.0,8.0,2.7,-17.6,-4.63
+S3_049,0.001,earthquake,H2,North Clinic,160,88,2.2,8.0,3.0,-4.19,7.42
+S3_049,0.001,earthquake,H3,South Medical Center,140,45,1.8,8.0,2.43,-15.18,-5.29
+S4_000,0.002,heatwave,H1,Central Hospital,220,80,2.0,8.0,2.7,10.63,-0.51
+S4_000,0.002,heatwave,H2,North Clinic,160,58,2.2,8.0,3.0,6.25,-3.25
+S4_000,0.002,heatwave,H3,South Medical Center,140,50,1.8,8.0,2.43,8.16,-3.37
+S4_001,0.002,heatwave,H1,Central Hospital,220,84,2.0,8.0,2.7,12.65,1.49
+S4_001,0.002,heatwave,H2,North Clinic,160,57,2.2,8.0,3.0,-2.82,4.43
+S4_001,0.002,heatwave,H3,South Medical Center,140,45,1.8,8.0,2.43,2.89,-2.45
+S4_002,0.002,heatwave,H1,Central Hospital,220,55,2.0,8.0,2.7,-7.66,-6.89
+S4_002,0.002,heatwave,H2,North Clinic,160,51,2.2,8.0,3.0,4.78,-9.05
+S4_002,0.002,heatwave,H3,South Medical Center,140,42,1.8,8.0,2.43,8.21,-11.25
+S4_003,0.002,heatwave,H1,Central Hospital,220,85,2.0,8.0,2.7,8.2,6.45
+S4_003,0.002,heatwave,H2,North Clinic,160,69,2.2,8.0,3.0,11.7,2.05
+S4_003,0.002,heatwave,H3,South Medical Center,140,51,1.8,8.0,2.43,1.99,3.91
+S4_004,0.002,heatwave,H1,Central Hospital,220,76,2.0,8.0,2.7,8.75,-2.88
+S4_004,0.002,heatwave,H2,North Clinic,160,64,2.2,8.0,3.0,5.81,2.8
+S4_004,0.002,heatwave,H3,South Medical Center,140,50,1.8,8.0,2.43,1.8,2.83
+S4_005,0.002,heatwave,H1,Central Hospital,220,70,2.0,8.0,2.7,-0.18,0.43
+S4_005,0.002,heatwave,H2,North Clinic,160,59,2.2,8.0,3.0,2.82,1.64
+S4_005,0.002,heatwave,H3,South Medical Center,140,50,1.8,8.0,2.43,9.01,-3.96
+S4_006,0.002,heatwave,H1,Central Hospital,220,80,2.0,8.0,2.7,1.91,7.76
+S4_006,0.002,heatwave,H2,North Clinic,160,62,2.2,8.0,3.0,0.17,6.38
+S4_006,0.002,heatwave,H3,South Medical Center,140,37,1.8,8.0,2.43,-3.23,-5.01
+S4_007,0.002,heatwave,H1,Central Hospital,220,62,2.0,8.0,2.7,-8.22,0.34
+S4_007,0.002,heatwave,H2,North Clinic,160,38,2.2,8.0,3.0,-14.68,-2.06
+S4_007,0.002,heatwave,H3,South Medical Center,140,27,1.8,8.0,2.43,-9.2,-9.04
+S4_008,0.002,heatwave,H1,Central Hospital,220,82,2.0,8.0,2.7,4.44,7.58
+S4_008,0.002,heatwave,H2,North Clinic,160,46,2.2,8.0,3.0,-5.5,-3.98
+S4_008,0.002,heatwave,H3,South Medical Center,140,51,1.8,8.0,2.43,4.64,1.51
+S4_009,0.002,heatwave,H1,Central Hospital,220,77,2.0,8.0,2.7,7.66,-0.19
+S4_009,0.002,heatwave,H2,North Clinic,160,65,2.2,8.0,3.0,1.21,8.7
+S4_009,0.002,heatwave,H3,South Medical Center,140,47,1.8,8.0,2.43,4.76,-2.41
+S4_010,0.002,heatwave,H1,Central Hospital,220,63,2.0,8.0,2.7,-4.28,-2.24
+S4_010,0.002,heatwave,H2,North Clinic,160,47,2.2,8.0,3.0,-7.89,-0.25
+S4_010,0.002,heatwave,H3,South Medical Center,140,37,1.8,8.0,2.43,-7.2,-0.58
+S4_011,0.002,heatwave,H1,Central Hospital,220,81,2.0,8.0,2.7,8.03,2.97
+S4_011,0.002,heatwave,H2,North Clinic,160,69,2.2,8.0,3.0,5.96,7.68
+S4_011,0.002,heatwave,H3,South Medical Center,140,53,1.8,8.0,2.43,1.1,7.25
+S4_012,0.002,heatwave,H1,Central Hospital,220,71,2.0,8.0,2.7,0.52,0.12
+S4_012,0.002,heatwave,H2,North Clinic,160,57,2.2,8.0,3.0,4.85,-3.0
+S4_012,0.002,heatwave,H3,South Medical Center,140,55,1.8,8.0,2.43,1.86,8.1
+S4_013,0.002,heatwave,H1,Central Hospital,220,61,2.0,8.0,2.7,1.49,-10.85
+S4_013,0.002,heatwave,H2,North Clinic,160,39,2.2,8.0,3.0,-5.54,-10.07
+S4_013,0.002,heatwave,H3,South Medical Center,140,46,1.8,8.0,2.43,-3.35,3.98
+S4_014,0.002,heatwave,H1,Central Hospital,220,65,2.0,8.0,2.7,-4.89,-0.12
+S4_014,0.002,heatwave,H2,North Clinic,160,68,2.2,8.0,3.0,3.17,10.02
+S4_014,0.002,heatwave,H3,South Medical Center,140,50,1.8,8.0,2.43,1.16,4.12
+S4_015,0.002,heatwave,H1,Central Hospital,220,57,2.0,8.0,2.7,-2.52,-10.65
+S4_015,0.002,heatwave,H2,North Clinic,160,55,2.2,8.0,3.0,-1.54,1.29
+S4_015,0.002,heatwave,H3,South Medical Center,140,51,1.8,8.0,2.43,1.3,4.23
+S4_016,0.002,heatwave,H1,Central Hospital,220,72,2.0,8.0,2.7,7.07,-4.83
+S4_016,0.002,heatwave,H2,North Clinic,160,66,2.2,8.0,3.0,10.75,0.27
+S4_016,0.002,heatwave,H3,South Medical Center,140,48,1.8,8.0,2.43,12.95,-10.42
+S4_017,0.002,heatwave,H1,Central Hospital,220,52,2.0,8.0,2.7,-5.12,-12.4
+S4_017,0.002,heatwave,H2,North Clinic,160,49,2.2,8.0,3.0,-1.25,-4.98
+S4_017,0.002,heatwave,H3,South Medical Center,140,46,1.8,8.0,2.43,-5.52,6.16
+S4_018,0.002,heatwave,H1,Central Hospital,220,89,2.0,8.0,2.7,15.39,4.02
+S4_018,0.002,heatwave,H2,North Clinic,160,71,2.2,8.0,3.0,19.5,-3.38
+S4_018,0.002,heatwave,H3,South Medical Center,140,65,1.8,8.0,2.43,18.46,2.02
+S4_019,0.002,heatwave,H1,Central Hospital,220,67,2.0,8.0,2.7,-4.6,1.88
+S4_019,0.002,heatwave,H2,North Clinic,160,50,2.2,8.0,3.0,2.12,-7.43
+S4_019,0.002,heatwave,H3,South Medical Center,140,42,1.8,8.0,2.43,-9.11,5.95
+S4_020,0.002,heatwave,H1,Central Hospital,220,67,2.0,8.0,2.7,5.22,-7.81
+S4_020,0.002,heatwave,H2,North Clinic,160,59,2.2,8.0,3.0,3.34,1.14
+S4_020,0.002,heatwave,H3,South Medical Center,140,56,1.8,8.0,2.43,6.14,4.84
+S4_021,0.002,heatwave,H1,Central Hospital,220,71,2.0,8.0,2.7,-2.48,3.71
+S4_021,0.002,heatwave,H2,North Clinic,160,39,2.2,8.0,3.0,-6.26,-9.39
+S4_021,0.002,heatwave,H3,South Medical Center,140,44,1.8,8.0,2.43,4.14,-5.37
+S4_022,0.002,heatwave,H1,Central Hospital,220,75,2.0,8.0,2.7,-4.72,9.3
+S4_022,0.002,heatwave,H2,North Clinic,160,52,2.2,8.0,3.0,-5.77,2.34
+S4_022,0.002,heatwave,H3,South Medical Center,140,42,1.8,8.0,2.43,-6.45,3.29
+S4_023,0.002,heatwave,H1,Central Hospital,220,51,2.0,8.0,2.7,-21.6,2.14
+S4_023,0.002,heatwave,H2,North Clinic,160,41,2.2,8.0,3.0,-16.48,2.19
+S4_023,0.002,heatwave,H3,South Medical Center,140,30,1.8,8.0,2.43,-12.63,-2.63
+S4_024,0.002,heatwave,H1,Central Hospital,220,75,2.0,8.0,2.7,8.33,-3.66
+S4_024,0.002,heatwave,H2,North Clinic,160,72,2.2,8.0,3.0,12.72,4.58
+S4_024,0.002,heatwave,H3,South Medical Center,140,41,1.8,8.0,2.43,-2.98,-0.55
+S4_025,0.002,heatwave,H1,Central Hospital,220,69,2.0,8.0,2.7,-2.59,1.76
+S4_025,0.002,heatwave,H2,North Clinic,160,71,2.2,8.0,3.0,6.03,9.56
+S4_025,0.002,heatwave,H3,South Medical Center,140,49,1.8,8.0,2.43,1.72,2.33
+S4_026,0.002,heatwave,H1,Central Hospital,220,70,2.0,8.0,2.7,1.23,-1.27
+S4_026,0.002,heatwave,H2,North Clinic,160,55,2.2,8.0,3.0,1.83,-1.89
+S4_026,0.002,heatwave,H3,South Medical Center,140,54,1.8,8.0,2.43,4.54,4.58
+S4_027,0.002,heatwave,H1,Central Hospital,220,83,2.0,8.0,2.7,10.82,1.88
+S4_027,0.002,heatwave,H2,North Clinic,160,64,2.2,8.0,3.0,14.55,-5.63
+S4_027,0.002,heatwave,H3,South Medical Center,140,59,1.8,8.0,2.43,7.13,6.64
+S4_028,0.002,heatwave,H1,Central Hospital,220,60,2.0,8.0,2.7,-13.78,4.15
+S4_028,0.002,heatwave,H2,North Clinic,160,55,2.2,8.0,3.0,-2.04,2.02
+S4_028,0.002,heatwave,H3,South Medical Center,140,30,1.8,8.0,2.43,-7.44,-8.03
+S4_029,0.002,heatwave,H1,Central Hospital,220,73,2.0,8.0,2.7,2.05,0.89
+S4_029,0.002,heatwave,H2,North Clinic,160,56,2.2,8.0,3.0,0.03,1.46
+S4_029,0.002,heatwave,H3,South Medical Center,140,50,1.8,8.0,2.43,-2.12,7.37
+S4_030,0.002,heatwave,H1,Central Hospital,220,60,2.0,8.0,2.7,-9.66,-0.82
+S4_030,0.002,heatwave,H2,North Clinic,160,31,2.2,8.0,3.0,-15.62,-8.76
+S4_030,0.002,heatwave,H3,South Medical Center,140,49,1.8,8.0,2.43,3.84,0.47
+S4_031,0.002,heatwave,H1,Central Hospital,220,58,2.0,8.0,2.7,-7.59,-4.58
+S4_031,0.002,heatwave,H2,North Clinic,160,40,2.2,8.0,3.0,-11.97,-3.36
+S4_031,0.002,heatwave,H3,South Medical Center,140,49,1.8,8.0,2.43,-3.63,7.39
+S4_032,0.002,heatwave,H1,Central Hospital,220,77,2.0,8.0,2.7,-2.52,9.31
+S4_032,0.002,heatwave,H2,North Clinic,160,67,2.2,8.0,3.0,8.86,3.01
+S4_032,0.002,heatwave,H3,South Medical Center,140,49,1.8,8.0,2.43,4.68,-0.91
+S4_033,0.002,heatwave,H1,Central Hospital,220,68,2.0,8.0,2.7,-0.04,-1.62
+S4_033,0.002,heatwave,H2,North Clinic,160,44,2.2,8.0,3.0,-10.36,-1.02
+S4_033,0.002,heatwave,H3,South Medical Center,140,42,1.8,8.0,2.43,-0.34,-2.46
+S4_034,0.002,heatwave,H1,Central Hospital,220,78,2.0,8.0,2.7,4.92,3.26
+S4_034,0.002,heatwave,H2,North Clinic,160,60,2.2,8.0,3.0,5.24,-0.04
+S4_034,0.002,heatwave,H3,South Medical Center,140,48,1.8,8.0,2.43,0.3,2.57
+S4_035,0.002,heatwave,H1,Central Hospital,220,74,2.0,8.0,2.7,-2.34,6.3
+S4_035,0.002,heatwave,H2,North Clinic,160,74,2.2,8.0,3.0,12.56,6.84
+S4_035,0.002,heatwave,H3,South Medical Center,140,38,1.8,8.0,2.43,-2.68,-4.26
+S4_036,0.002,heatwave,H1,Central Hospital,220,58,2.0,8.0,2.7,-12.26,0.14
+S4_036,0.002,heatwave,H2,North Clinic,160,40,2.2,8.0,3.0,-13.61,-1.09
+S4_036,0.002,heatwave,H3,South Medical Center,140,27,1.8,8.0,2.43,-17.35,-1.05
+S4_037,0.002,heatwave,H1,Central Hospital,220,63,2.0,8.0,2.7,-2.09,-4.56
+S4_037,0.002,heatwave,H2,North Clinic,160,60,2.2,8.0,3.0,1.17,4.12
+S4_037,0.002,heatwave,H3,South Medical Center,140,42,1.8,8.0,2.43,-7.32,4.61
+S4_038,0.002,heatwave,H1,Central Hospital,220,60,2.0,8.0,2.7,-5.47,-4.64
+S4_038,0.002,heatwave,H2,North Clinic,160,49,2.2,8.0,3.0,-1.49,-4.34
+S4_038,0.002,heatwave,H3,South Medical Center,140,31,1.8,8.0,2.43,-5.68,-8.18
+S4_039,0.002,heatwave,H1,Central Hospital,220,52,2.0,8.0,2.7,-3.14,-14.78
+S4_039,0.002,heatwave,H2,North Clinic,160,48,2.2,8.0,3.0,-0.84,-6.24
+S4_039,0.002,heatwave,H3,South Medical Center,140,50,1.8,8.0,2.43,-0.22,5.6
+S4_040,0.002,heatwave,H1,Central Hospital,220,77,2.0,8.0,2.7,-0.05,7.19
+S4_040,0.002,heatwave,H2,North Clinic,160,63,2.2,8.0,3.0,8.32,-0.72
+S4_040,0.002,heatwave,H3,South Medical Center,140,51,1.8,8.0,2.43,4.84,1.45
+S4_041,0.002,heatwave,H1,Central Hospital,220,50,2.0,8.0,2.7,-17.23,-2.97
+S4_041,0.002,heatwave,H2,North Clinic,160,43,2.2,8.0,3.0,-9.99,-1.63
+S4_041,0.002,heatwave,H3,South Medical Center,140,30,1.8,8.0,2.43,-17.41,2.55
+S4_042,0.002,heatwave,H1,Central Hospital,220,75,2.0,8.0,2.7,5.68,-0.57
+S4_042,0.002,heatwave,H2,North Clinic,160,63,2.2,8.0,3.0,-3.6,11.5
+S4_042,0.002,heatwave,H3,South Medical Center,140,45,1.8,8.0,2.43,-0.66,0.45
+S4_043,0.002,heatwave,H1,Central Hospital,220,57,2.0,8.0,2.7,-9.2,-3.62
+S4_043,0.002,heatwave,H2,North Clinic,160,38,2.2,8.0,3.0,-12.58,-4.27
+S4_043,0.002,heatwave,H3,South Medical Center,140,35,1.8,8.0,2.43,-12.69,2.3
+S4_044,0.002,heatwave,H1,Central Hospital,220,52,2.0,8.0,2.7,-11.23,-6.8
+S4_044,0.002,heatwave,H2,North Clinic,160,44,2.2,8.0,3.0,-3.54,-7.14
+S4_044,0.002,heatwave,H3,South Medical Center,140,33,1.8,8.0,2.43,-3.25,-8.84
+S4_045,0.002,heatwave,H1,Central Hospital,220,58,2.0,8.0,2.7,-0.79,-11.3
+S4_045,0.002,heatwave,H2,North Clinic,160,57,2.2,8.0,3.0,2.6,-0.95
+S4_045,0.002,heatwave,H3,South Medical Center,140,40,1.8,8.0,2.43,-4.48,-0.81
+S4_046,0.002,heatwave,H1,Central Hospital,220,63,2.0,8.0,2.7,-15.95,8.53
+S4_046,0.002,heatwave,H2,North Clinic,160,40,2.2,8.0,3.0,-16.99,2.25
+S4_046,0.002,heatwave,H3,South Medical Center,140,42,1.8,8.0,2.43,-5.68,2.82
+S4_047,0.002,heatwave,H1,Central Hospital,220,68,2.0,8.0,2.7,1.83,-4.05
+S4_047,0.002,heatwave,H2,North Clinic,160,58,2.2,8.0,3.0,-1.44,4.39
+S4_047,0.002,heatwave,H3,South Medical Center,140,35,1.8,8.0,2.43,-3.15,-6.87
+S4_048,0.002,heatwave,H1,Central Hospital,220,66,2.0,8.0,2.7,-4.37,-0.11
+S4_048,0.002,heatwave,H2,North Clinic,160,52,2.2,8.0,3.0,-0.29,-3.11
+S4_048,0.002,heatwave,H3,South Medical Center,140,38,1.8,8.0,2.43,-1.32,-5.36
+S4_049,0.002,heatwave,H1,Central Hospital,220,68,2.0,8.0,2.7,3.54,-5.75
+S4_049,0.002,heatwave,H2,North Clinic,160,57,2.2,8.0,3.0,-1.62,3.56
+S4_049,0.002,heatwave,H3,South Medical Center,140,44,1.8,8.0,2.43,5.19,-5.91
+S5_000,0.001,severe_storm,H1,Central Hospital,220,105,2.0,8.0,2.7,8.41,1.65
+S5_000,0.001,severe_storm,H2,North Clinic,160,73,2.2,8.0,3.0,-0.98,-1.06
+S5_000,0.001,severe_storm,H3,South Medical Center,140,60,1.8,8.0,2.43,2.9,2.49
+S5_001,0.001,severe_storm,H1,Central Hospital,220,117,2.0,8.0,2.7,21.43,0.66
+S5_001,0.001,severe_storm,H2,North Clinic,160,85,2.2,8.0,3.0,9.26,0.34
+S5_001,0.001,severe_storm,H3,South Medical Center,140,66,1.8,8.0,2.43,8.09,2.74
+S5_002,0.001,severe_storm,H1,Central Hospital,220,84,2.0,8.0,2.7,-11.94,1.05
+S5_002,0.001,severe_storm,H2,North Clinic,160,63,2.2,8.0,3.0,-8.03,-3.57
+S5_002,0.001,severe_storm,H3,South Medical Center,140,67,1.8,8.0,2.43,5.05,6.56
+S5_003,0.001,severe_storm,H1,Central Hospital,220,79,2.0,8.0,2.7,-2.1,-13.75
+S5_003,0.001,severe_storm,H2,North Clinic,160,73,2.2,8.0,3.0,-0.89,-1.17
+S5_003,0.001,severe_storm,H3,South Medical Center,140,65,1.8,8.0,2.43,10.7,-0.94
+S5_004,0.001,severe_storm,H1,Central Hospital,220,101,2.0,8.0,2.7,7.02,-0.85
+S5_004,0.001,severe_storm,H2,North Clinic,160,68,2.2,8.0,3.0,3.34,-10.67
+S5_004,0.001,severe_storm,H3,South Medical Center,140,55,1.8,8.0,2.43,-3.56,3.09
+S5_005,0.001,severe_storm,H1,Central Hospital,220,89,2.0,8.0,2.7,-0.56,-5.82
+S5_005,0.001,severe_storm,H2,North Clinic,160,80,2.2,8.0,3.0,-4.79,10.04
+S5_005,0.001,severe_storm,H3,South Medical Center,140,44,1.8,8.0,2.43,-5.85,-4.8
+S5_006,0.001,severe_storm,H1,Central Hospital,220,94,2.0,8.0,2.7,-8.38,7.58
+S5_006,0.001,severe_storm,H2,North Clinic,160,66,2.2,8.0,3.0,-7.78,-1.3
+S5_006,0.001,severe_storm,H3,South Medical Center,140,63,1.8,8.0,2.43,3.43,4.2
+S5_007,0.001,severe_storm,H1,Central Hospital,220,97,2.0,8.0,2.7,2.95,-1.18
+S5_007,0.001,severe_storm,H2,North Clinic,160,61,2.2,8.0,3.0,-4.75,-8.9
+S5_007,0.001,severe_storm,H3,South Medical Center,140,48,1.8,8.0,2.43,-3.35,-4.02
+S5_008,0.001,severe_storm,H1,Central Hospital,220,82,2.0,8.0,2.7,-9.12,-3.62
+S5_008,0.001,severe_storm,H2,North Clinic,160,73,2.2,8.0,3.0,0.93,-2.91
+S5_008,0.001,severe_storm,H3,South Medical Center,140,52,1.8,8.0,2.43,-1.6,-1.83
+S5_009,0.001,severe_storm,H1,Central Hospital,220,106,2.0,8.0,2.7,7.13,3.86
+S5_009,0.001,severe_storm,H2,North Clinic,160,88,2.2,8.0,3.0,8.64,4.05
+S5_009,0.001,severe_storm,H3,South Medical Center,140,65,1.8,8.0,2.43,10.99,-0.73
+S5_010,0.001,severe_storm,H1,Central Hospital,220,89,2.0,8.0,2.7,-0.02,-5.73
+S5_010,0.001,severe_storm,H2,North Clinic,160,75,2.2,8.0,3.0,4.69,-4.7
+S5_010,0.001,severe_storm,H3,South Medical Center,140,55,1.8,8.0,2.43,3.1,-3.17
+S5_011,0.001,severe_storm,H1,Central Hospital,220,98,2.0,8.0,2.7,10.58,-7.94
+S5_011,0.001,severe_storm,H2,North Clinic,160,82,2.2,8.0,3.0,6.45,0.13
+S5_011,0.001,severe_storm,H3,South Medical Center,140,58,1.8,8.0,2.43,4.49,-1.1
+S5_012,0.001,severe_storm,H1,Central Hospital,220,81,2.0,8.0,2.7,-7.28,-6.31
+S5_012,0.001,severe_storm,H2,North Clinic,160,76,2.2,8.0,3.0,0.85,0.15
+S5_012,0.001,severe_storm,H3,South Medical Center,140,61,1.8,8.0,2.43,0.77,5.14
+S5_013,0.001,severe_storm,H1,Central Hospital,220,114,2.0,8.0,2.7,19.46,-0.77
+S5_013,0.001,severe_storm,H2,North Clinic,160,91,2.2,8.0,3.0,12.81,2.75
+S5_013,0.001,severe_storm,H3,South Medical Center,140,60,1.8,8.0,2.43,8.76,-3.52
+S5_014,0.001,severe_storm,H1,Central Hospital,220,93,2.0,8.0,2.7,-7.1,4.71
+S5_014,0.001,severe_storm,H2,North Clinic,160,71,2.2,8.0,3.0,1.05,-4.92
+S5_014,0.001,severe_storm,H3,South Medical Center,140,63,1.8,8.0,2.43,10.45,-2.28
+S5_015,0.001,severe_storm,H1,Central Hospital,220,100,2.0,8.0,2.7,9.06,-3.65
+S5_015,0.001,severe_storm,H2,North Clinic,160,82,2.2,8.0,3.0,5.24,1.89
+S5_015,0.001,severe_storm,H3,South Medical Center,140,70,1.8,8.0,2.43,12.77,2.26
+S5_016,0.001,severe_storm,H1,Central Hospital,220,93,2.0,8.0,2.7,3.09,-5.34
+S5_016,0.001,severe_storm,H2,North Clinic,160,70,2.2,8.0,3.0,-4.75,-0.27
+S5_016,0.001,severe_storm,H3,South Medical Center,140,55,1.8,8.0,2.43,-5.38,5.66
+S5_017,0.001,severe_storm,H1,Central Hospital,220,92,2.0,8.0,2.7,-9.89,6.79
+S5_017,0.001,severe_storm,H2,North Clinic,160,66,2.2,8.0,3.0,-11.67,2.54
+S5_017,0.001,severe_storm,H3,South Medical Center,140,55,1.8,8.0,2.43,-1.4,0.98
+S5_018,0.001,severe_storm,H1,Central Hospital,220,96,2.0,8.0,2.7,2.49,-1.26
+S5_018,0.001,severe_storm,H2,North Clinic,160,74,2.2,8.0,3.0,-0.32,-0.21
+S5_018,0.001,severe_storm,H3,South Medical Center,140,57,1.8,8.0,2.43,2.01,0.39
+S5_019,0.001,severe_storm,H1,Central Hospital,220,101,2.0,8.0,2.7,14.57,-8.88
+S5_019,0.001,severe_storm,H2,North Clinic,160,76,2.2,8.0,3.0,-0.28,1.62
+S5_019,0.001,severe_storm,H3,South Medical Center,140,48,1.8,8.0,2.43,-3.33,-3.8
+S5_020,0.001,severe_storm,H1,Central Hospital,220,99,2.0,8.0,2.7,-1.46,5.88
+S5_020,0.001,severe_storm,H2,North Clinic,160,71,2.2,8.0,3.0,-5.23,0.96
+S5_020,0.001,severe_storm,H3,South Medical Center,140,56,1.8,8.0,2.43,-4.67,5.66
+S5_021,0.001,severe_storm,H1,Central Hospital,220,118,2.0,8.0,2.7,17.63,5.39
+S5_021,0.001,severe_storm,H2,North Clinic,160,88,2.2,8.0,3.0,19.02,-6.1
+S5_021,0.001,severe_storm,H3,South Medical Center,140,57,1.8,8.0,2.43,6.59,-4.15
+S5_022,0.001,severe_storm,H1,Central Hospital,220,100,2.0,8.0,2.7,-0.06,5.42
+S5_022,0.001,severe_storm,H2,North Clinic,160,65,2.2,8.0,3.0,-1.6,-8.83
+S5_022,0.001,severe_storm,H3,South Medical Center,140,59,1.8,8.0,2.43,-1.24,4.87
+S5_023,0.001,severe_storm,H1,Central Hospital,220,92,2.0,8.0,2.7,-5.02,2.52
+S5_023,0.001,severe_storm,H2,North Clinic,160,65,2.2,8.0,3.0,2.49,-12.07
+S5_023,0.001,severe_storm,H3,South Medical Center,140,62,1.8,8.0,2.43,3.28,3.24
+S5_024,0.001,severe_storm,H1,Central Hospital,220,111,2.0,8.0,2.7,10.0,5.85
+S5_024,0.001,severe_storm,H2,North Clinic,160,84,2.2,8.0,3.0,10.07,-0.89
+S5_024,0.001,severe_storm,H3,South Medical Center,140,60,1.8,8.0,2.43,8.17,-3.47
+S5_025,0.001,severe_storm,H1,Central Hospital,220,98,2.0,8.0,2.7,5.36,-1.93
+S5_025,0.001,severe_storm,H2,North Clinic,160,80,2.2,8.0,3.0,5.85,-1.18
+S5_025,0.001,severe_storm,H3,South Medical Center,140,45,1.8,8.0,2.43,-2.61,-7.84
+S5_026,0.001,severe_storm,H1,Central Hospital,220,95,2.0,8.0,2.7,-0.19,0.64
+S5_026,0.001,severe_storm,H2,North Clinic,160,78,2.2,8.0,3.0,-9.25,11.93
+S5_026,0.001,severe_storm,H3,South Medical Center,140,52,1.8,8.0,2.43,2.66,-5.5
+S5_027,0.001,severe_storm,H1,Central Hospital,220,96,2.0,8.0,2.7,4.76,-3.48
+S5_027,0.001,severe_storm,H2,North Clinic,160,79,2.2,8.0,3.0,3.36,1.12
+S5_027,0.001,severe_storm,H3,South Medical Center,140,47,1.8,8.0,2.43,-7.81,0.01
+S5_028,0.001,severe_storm,H1,Central Hospital,220,85,2.0,8.0,2.7,-2.28,-7.99
+S5_028,0.001,severe_storm,H2,North Clinic,160,72,2.2,8.0,3.0,-3.67,0.68
+S5_028,0.001,severe_storm,H3,South Medical Center,140,58,1.8,8.0,2.43,1.05,2.25
+S5_029,0.001,severe_storm,H1,Central Hospital,220,102,2.0,8.0,2.7,4.9,1.82
+S5_029,0.001,severe_storm,H2,North Clinic,160,66,2.2,8.0,3.0,-5.34,-3.63
+S5_029,0.001,severe_storm,H3,South Medical Center,140,59,1.8,8.0,2.43,5.1,-1.4
+S5_030,0.001,severe_storm,H1,Central Hospital,220,110,2.0,8.0,2.7,8.64,6.14
+S5_030,0.001,severe_storm,H2,North Clinic,160,80,2.2,8.0,3.0,7.88,-3.2
+S5_030,0.001,severe_storm,H3,South Medical Center,140,71,1.8,8.0,2.43,12.71,3.2
+S5_031,0.001,severe_storm,H1,Central Hospital,220,103,2.0,8.0,2.7,3.28,4.37
+S5_031,0.001,severe_storm,H2,North Clinic,160,77,2.2,8.0,3.0,4.51,-2.67
+S5_031,0.001,severe_storm,H3,South Medical Center,140,49,1.8,8.0,2.43,2.33,-7.86
+S5_032,0.001,severe_storm,H1,Central Hospital,220,102,2.0,8.0,2.7,5.42,2.05
+S5_032,0.001,severe_storm,H2,North Clinic,160,83,2.2,8.0,3.0,10.07,-2.33
+S5_032,0.001,severe_storm,H3,South Medical Center,140,78,1.8,8.0,2.43,11.61,11.87
+S5_033,0.001,severe_storm,H1,Central Hospital,220,101,2.0,8.0,2.7,8.31,-2.47
+S5_033,0.001,severe_storm,H2,North Clinic,160,90,2.2,8.0,3.0,14.26,0.71
+S5_033,0.001,severe_storm,H3,South Medical Center,140,54,1.8,8.0,2.43,10.78,-11.63
+S5_034,0.001,severe_storm,H1,Central Hospital,220,93,2.0,8.0,2.7,-3.16,1.3
+S5_034,0.001,severe_storm,H2,North Clinic,160,85,2.2,8.0,3.0,4.98,5.12
+S5_034,0.001,severe_storm,H3,South Medical Center,140,47,1.8,8.0,2.43,-7.1,-0.82
+S5_035,0.001,severe_storm,H1,Central Hospital,220,101,2.0,8.0,2.7,6.19,-0.57
+S5_035,0.001,severe_storm,H2,North Clinic,160,66,2.2,8.0,3.0,-4.24,-5.06
+S5_035,0.001,severe_storm,H3,South Medical Center,140,66,1.8,8.0,2.43,9.94,0.63
+S5_036,0.001,severe_storm,H1,Central Hospital,220,94,2.0,8.0,2.7,6.11,-6.69
+S5_036,0.001,severe_storm,H2,North Clinic,160,81,2.2,8.0,3.0,0.95,5.24
+S5_036,0.001,severe_storm,H3,South Medical Center,140,52,1.8,8.0,2.43,3.94,-6.99
+S5_037,0.001,severe_storm,H1,Central Hospital,220,104,2.0,8.0,2.7,8.45,0.49
+S5_037,0.001,severe_storm,H2,North Clinic,160,78,2.2,8.0,3.0,7.49,-4.7
+S5_037,0.001,severe_storm,H3,South Medical Center,140,47,1.8,8.0,2.43,-5.07,-2.65
+S5_038,0.001,severe_storm,H1,Central Hospital,220,94,2.0,8.0,2.7,-0.82,-0.15
+S5_038,0.001,severe_storm,H2,North Clinic,160,74,2.2,8.0,3.0,-0.17,-1.07
+S5_038,0.001,severe_storm,H3,South Medical Center,140,47,1.8,8.0,2.43,-0.37,-7.21
+S5_039,0.001,severe_storm,H1,Central Hospital,220,93,2.0,8.0,2.7,-1.0,-0.95
+S5_039,0.001,severe_storm,H2,North Clinic,160,80,2.2,8.0,3.0,8.93,-4.1
+S5_039,0.001,severe_storm,H3,South Medical Center,140,58,1.8,8.0,2.43,2.07,0.56
+S5_040,0.001,severe_storm,H1,Central Hospital,220,93,2.0,8.0,2.7,4.44,-6.56
+S5_040,0.001,severe_storm,H2,North Clinic,160,84,2.2,8.0,3.0,5.74,3.36
+S5_040,0.001,severe_storm,H3,South Medical Center,140,47,1.8,8.0,2.43,-3.92,-3.87
+S5_041,0.001,severe_storm,H1,Central Hospital,220,102,2.0,8.0,2.7,2.37,4.46
+S5_041,0.001,severe_storm,H2,North Clinic,160,77,2.2,8.0,3.0,5.7,-3.87
+S5_041,0.001,severe_storm,H3,South Medical Center,140,55,1.8,8.0,2.43,2.93,-3.09
+S5_042,0.001,severe_storm,H1,Central Hospital,220,106,2.0,8.0,2.7,8.28,3.14
+S5_042,0.001,severe_storm,H2,North Clinic,160,84,2.2,8.0,3.0,0.26,8.55
+S5_042,0.001,severe_storm,H3,South Medical Center,140,70,1.8,8.0,2.43,3.59,11.34
+S5_043,0.001,severe_storm,H1,Central Hospital,220,94,2.0,8.0,2.7,3.22,-3.89
+S5_043,0.001,severe_storm,H2,North Clinic,160,81,2.2,8.0,3.0,9.39,-3.15
+S5_043,0.001,severe_storm,H3,South Medical Center,140,57,1.8,8.0,2.43,7.47,-5.29
+S5_044,0.001,severe_storm,H1,Central Hospital,220,102,2.0,8.0,2.7,3.23,4.21
+S5_044,0.001,severe_storm,H2,North Clinic,160,79,2.2,8.0,3.0,8.99,-4.59
+S5_044,0.001,severe_storm,H3,South Medical Center,140,77,1.8,8.0,2.43,8.4,14.05
+S5_045,0.001,severe_storm,H1,Central Hospital,220,102,2.0,8.0,2.7,-1.22,8.53
+S5_045,0.001,severe_storm,H2,North Clinic,160,86,2.2,8.0,3.0,5.9,5.6
+S5_045,0.001,severe_storm,H3,South Medical Center,140,61,1.8,8.0,2.43,4.51,1.48
+S5_046,0.001,severe_storm,H1,Central Hospital,220,108,2.0,8.0,2.7,5.61,7.31
+S5_046,0.001,severe_storm,H2,North Clinic,160,91,2.2,8.0,3.0,11.73,4.05
+S5_046,0.001,severe_storm,H3,South Medical Center,140,64,1.8,8.0,2.43,8.61,0.48
+S5_047,0.001,severe_storm,H1,Central Hospital,220,120,2.0,8.0,2.7,19.3,6.06
+S5_047,0.001,severe_storm,H2,North Clinic,160,92,2.2,8.0,3.0,11.45,5.55
+S5_047,0.001,severe_storm,H3,South Medical Center,140,63,1.8,8.0,2.43,15.49,-7.96
+S5_048,0.001,severe_storm,H1,Central Hospital,220,87,2.0,8.0,2.7,-7.68,-0.04
+S5_048,0.001,severe_storm,H2,North Clinic,160,81,2.2,8.0,3.0,4.55,1.37
+S5_048,0.001,severe_storm,H3,South Medical Center,140,51,1.8,8.0,2.43,-2.23,-1.5
+S5_049,0.001,severe_storm,H1,Central Hospital,220,106,2.0,8.0,2.7,11.81,-0.74
+S5_049,0.001,severe_storm,H2,North Clinic,160,84,2.2,8.0,3.0,11.75,-2.82
+S5_049,0.001,severe_storm,H3,South Medical Center,140,65,1.8,8.0,2.43,11.82,-2.22
+S6_000,0.0008,major_earthquake,H1,Central Hospital,220,147,2.0,8.0,2.7,-0.74,-2.05
+S6_000,0.0008,major_earthquake,H2,North Clinic,160,113,2.2,8.0,3.0,2.2,0.46
+S6_000,0.0008,major_earthquake,H3,South Medical Center,140,80,1.8,8.0,2.43,-0.78,-9.6
+S6_001,0.0008,major_earthquake,H1,Central Hospital,220,152,2.0,8.0,2.7,-3.19,4.8
+S6_001,0.0008,major_earthquake,H2,North Clinic,160,97,2.2,8.0,3.0,-3.18,-9.76
+S6_001,0.0008,major_earthquake,H3,South Medical Center,140,77,1.8,8.0,2.43,-2.67,-9.87
+S6_002,0.0008,major_earthquake,H1,Central Hospital,220,146,2.0,8.0,2.7,-1.34,-2.31
+S6_002,0.0008,major_earthquake,H2,North Clinic,160,111,2.2,8.0,3.0,-2.16,3.32
+S6_002,0.0008,major_earthquake,H3,South Medical Center,140,93,1.8,8.0,2.43,-1.77,4.66
+S6_003,0.0008,major_earthquake,H1,Central Hospital,220,143,2.0,8.0,2.7,-10.49,3.85
+S6_003,0.0008,major_earthquake,H2,North Clinic,160,117,2.2,8.0,3.0,0.6,6.11
+S6_003,0.0008,major_earthquake,H3,South Medical Center,140,95,1.8,8.0,2.43,2.01,3.22
+S6_004,0.0008,major_earthquake,H1,Central Hospital,220,167,2.0,8.0,2.7,9.04,7.79
+S6_004,0.0008,major_earthquake,H2,North Clinic,160,111,2.2,8.0,3.0,5.82,-4.38
+S6_004,0.0008,major_earthquake,H3,South Medical Center,140,90,1.8,8.0,2.43,0.93,-1.13
+S6_005,0.0008,major_earthquake,H1,Central Hospital,220,143,2.0,8.0,2.7,-8.98,2.07
+S6_005,0.0008,major_earthquake,H2,North Clinic,160,111,2.2,8.0,3.0,-2.29,2.89
+S6_005,0.0008,major_earthquake,H3,South Medical Center,140,88,1.8,8.0,2.43,-2.29,0.44
+S6_006,0.0008,major_earthquake,H1,Central Hospital,220,149,2.0,8.0,2.7,3.45,-4.5
+S6_006,0.0008,major_earthquake,H2,North Clinic,160,102,2.2,8.0,3.0,-5.33,-2.94
+S6_006,0.0008,major_earthquake,H3,South Medical Center,140,87,1.8,8.0,2.43,-2.93,0.05
+S6_007,0.0008,major_earthquake,H1,Central Hospital,220,129,2.0,8.0,2.7,-10.57,-10.19
+S6_007,0.0008,major_earthquake,H2,North Clinic,160,103,2.2,8.0,3.0,-7.26,0.16
+S6_007,0.0008,major_earthquake,H3,South Medical Center,140,87,1.8,8.0,2.43,2.74,-5.59
+S6_008,0.0008,major_earthquake,H1,Central Hospital,220,152,2.0,8.0,2.7,0.53,1.16
+S6_008,0.0008,major_earthquake,H2,North Clinic,160,114,2.2,8.0,3.0,5.79,-1.5
+S6_008,0.0008,major_earthquake,H3,South Medical Center,140,94,1.8,8.0,2.43,0.94,3.36
+S6_009,0.0008,major_earthquake,H1,Central Hospital,220,151,2.0,8.0,2.7,-3.89,5.22
+S6_009,0.0008,major_earthquake,H2,North Clinic,160,107,2.2,8.0,3.0,-4.73,1.97
+S6_009,0.0008,major_earthquake,H3,South Medical Center,140,83,1.8,8.0,2.43,0.11,-6.98
+S6_010,0.0008,major_earthquake,H1,Central Hospital,220,155,2.0,8.0,2.7,0.18,5.12
+S6_010,0.0008,major_earthquake,H2,North Clinic,160,101,2.2,8.0,3.0,-10.42,1.45
+S6_010,0.0008,major_earthquake,H3,South Medical Center,140,88,1.8,8.0,2.43,-2.32,0.79
+S6_011,0.0008,major_earthquake,H1,Central Hospital,220,151,2.0,8.0,2.7,0.22,1.18
+S6_011,0.0008,major_earthquake,H2,North Clinic,160,118,2.2,8.0,3.0,4.12,4.36
+S6_011,0.0008,major_earthquake,H3,South Medical Center,140,87,1.8,8.0,2.43,-0.56,-2.81
+S6_012,0.0008,major_earthquake,H1,Central Hospital,220,142,2.0,8.0,2.7,0.69,-9.14
+S6_012,0.0008,major_earthquake,H2,North Clinic,160,116,2.2,8.0,3.0,2.78,3.65
+S6_012,0.0008,major_earthquake,H3,South Medical Center,140,108,1.8,8.0,2.43,9.4,9.04
+S6_013,0.0008,major_earthquake,H1,Central Hospital,220,150,2.0,8.0,2.7,-7.51,7.11
+S6_013,0.0008,major_earthquake,H2,North Clinic,160,92,2.2,8.0,3.0,-15.52,-2.28
+S6_013,0.0008,major_earthquake,H3,South Medical Center,140,87,1.8,8.0,2.43,-3.41,0.51
+S6_014,0.0008,major_earthquake,H1,Central Hospital,220,161,2.0,8.0,2.7,10.42,1.0
+S6_014,0.0008,major_earthquake,H2,North Clinic,160,118,2.2,8.0,3.0,16.05,-7.81
+S6_014,0.0008,major_earthquake,H3,South Medical Center,140,105,1.8,8.0,2.43,11.92,2.71
+S6_015,0.0008,major_earthquake,H1,Central Hospital,220,128,2.0,8.0,2.7,-10.99,-10.78
+S6_015,0.0008,major_earthquake,H2,North Clinic,160,102,2.2,8.0,3.0,-6.49,-1.33
+S6_015,0.0008,major_earthquake,H3,South Medical Center,140,86,1.8,8.0,2.43,-0.85,-2.91
+S6_016,0.0008,major_earthquake,H1,Central Hospital,220,154,2.0,8.0,2.7,9.3,-5.38
+S6_016,0.0008,major_earthquake,H2,North Clinic,160,120,2.2,8.0,3.0,12.33,-2.77
+S6_016,0.0008,major_earthquake,H3,South Medical Center,140,103,1.8,8.0,2.43,7.69,5.36
+S6_017,0.0008,major_earthquake,H1,Central Hospital,220,142,2.0,8.0,2.7,-2.12,-5.8
+S6_017,0.0008,major_earthquake,H2,North Clinic,160,105,2.2,8.0,3.0,-5.61,0.16
+S6_017,0.0008,major_earthquake,H3,South Medical Center,140,87,1.8,8.0,2.43,-3.94,0.74
+S6_018,0.0008,major_earthquake,H1,Central Hospital,220,153,2.0,8.0,2.7,0.65,2.55
+S6_018,0.0008,major_earthquake,H2,North Clinic,160,119,2.2,8.0,3.0,5.98,2.76
+S6_018,0.0008,major_earthquake,H3,South Medical Center,140,78,1.8,8.0,2.43,2.44,-14.59
+S6_019,0.0008,major_earthquake,H1,Central Hospital,220,145,2.0,8.0,2.7,-10.42,5.13
+S6_019,0.0008,major_earthquake,H2,North Clinic,160,93,2.2,8.0,3.0,-15.28,-1.59
+S6_019,0.0008,major_earthquake,H3,South Medical Center,140,88,1.8,8.0,2.43,5.19,-7.33
+S6_020,0.0008,major_earthquake,H1,Central Hospital,220,157,2.0,8.0,2.7,1.16,5.64
+S6_020,0.0008,major_earthquake,H2,North Clinic,160,124,2.2,8.0,3.0,14.18,-0.28
+S6_020,0.0008,major_earthquake,H3,South Medical Center,140,90,1.8,8.0,2.43,5.81,-5.96
+S6_021,0.0008,major_earthquake,H1,Central Hospital,220,161,2.0,8.0,2.7,6.98,3.66
+S6_021,0.0008,major_earthquake,H2,North Clinic,160,100,2.2,8.0,3.0,-1.04,-8.6
+S6_021,0.0008,major_earthquake,H3,South Medical Center,140,93,1.8,8.0,2.43,5.18,-2.02
+S6_022,0.0008,major_earthquake,H1,Central Hospital,220,160,2.0,8.0,2.7,1.48,8.02
+S6_022,0.0008,major_earthquake,H2,North Clinic,160,122,2.2,8.0,3.0,12.24,-0.17
+S6_022,0.0008,major_earthquake,H3,South Medical Center,140,87,1.8,8.0,2.43,2.61,-5.81
+S6_023,0.0008,major_earthquake,H1,Central Hospital,220,151,2.0,8.0,2.7,0.41,0.47
+S6_023,0.0008,major_earthquake,H2,North Clinic,160,109,2.2,8.0,3.0,4.77,-6.14
+S6_023,0.0008,major_earthquake,H3,South Medical Center,140,88,1.8,8.0,2.43,8.75,-10.9
+S6_024,0.0008,major_earthquake,H1,Central Hospital,220,146,2.0,8.0,2.7,0.09,-4.55
+S6_024,0.0008,major_earthquake,H2,North Clinic,160,104,2.2,8.0,3.0,-1.19,-4.36
+S6_024,0.0008,major_earthquake,H3,South Medical Center,140,110,1.8,8.0,2.43,9.67,10.0
+S6_025,0.0008,major_earthquake,H1,Central Hospital,220,140,2.0,8.0,2.7,-6.38,-3.27
+S6_025,0.0008,major_earthquake,H2,North Clinic,160,115,2.2,8.0,3.0,4.14,1.08
+S6_025,0.0008,major_earthquake,H3,South Medical Center,140,87,1.8,8.0,2.43,2.0,-5.12
+S6_026,0.0008,major_earthquake,H1,Central Hospital,220,140,2.0,8.0,2.7,-7.31,-2.93
+S6_026,0.0008,major_earthquake,H2,North Clinic,160,102,2.2,8.0,3.0,-8.78,0.82
+S6_026,0.0008,major_earthquake,H3,South Medical Center,140,87,1.8,8.0,2.43,-0.26,-3.2
+S6_027,0.0008,major_earthquake,H1,Central Hospital,220,152,2.0,8.0,2.7,-0.59,2.43
+S6_027,0.0008,major_earthquake,H2,North Clinic,160,114,2.2,8.0,3.0,2.63,1.19
+S6_027,0.0008,major_earthquake,H3,South Medical Center,140,93,1.8,8.0,2.43,3.6,-0.44
+S6_028,0.0008,major_earthquake,H1,Central Hospital,220,151,2.0,8.0,2.7,2.22,-1.53
+S6_028,0.0008,major_earthquake,H2,North Clinic,160,116,2.2,8.0,3.0,5.61,0.52
+S6_028,0.0008,major_earthquake,H3,South Medical Center,140,98,1.8,8.0,2.43,-0.0,8.48
+S6_029,0.0008,major_earthquake,H1,Central Hospital,220,154,2.0,8.0,2.7,2.97,1.09
+S6_029,0.0008,major_earthquake,H2,North Clinic,160,133,2.2,8.0,3.0,14.97,7.88
+S6_029,0.0008,major_earthquake,H3,South Medical Center,140,100,1.8,8.0,2.43,8.0,2.44
+S6_030,0.0008,major_earthquake,H1,Central Hospital,220,148,2.0,8.0,2.7,-1.09,-1.26
+S6_030,0.0008,major_earthquake,H2,North Clinic,160,103,2.2,8.0,3.0,-2.8,-3.93
+S6_030,0.0008,major_earthquake,H3,South Medical Center,140,90,1.8,8.0,2.43,0.96,-1.45
+S6_031,0.0008,major_earthquake,H1,Central Hospital,220,139,2.0,8.0,2.7,-4.11,-6.8
+S6_031,0.0008,major_earthquake,H2,North Clinic,160,110,2.2,8.0,3.0,-1.8,1.95
+S6_031,0.0008,major_earthquake,H3,South Medical Center,140,96,1.8,8.0,2.43,3.02,2.73
+S6_032,0.0008,major_earthquake,H1,Central Hospital,220,151,2.0,8.0,2.7,-1.31,1.96
+S6_032,0.0008,major_earthquake,H2,North Clinic,160,113,2.2,8.0,3.0,1.12,1.52
+S6_032,0.0008,major_earthquake,H3,South Medical Center,140,85,1.8,8.0,2.43,-4.77,-0.46
+S6_033,0.0008,major_earthquake,H1,Central Hospital,220,149,2.0,8.0,2.7,2.2,-3.33
+S6_033,0.0008,major_earthquake,H2,North Clinic,160,123,2.2,8.0,3.0,10.85,2.17
+S6_033,0.0008,major_earthquake,H3,South Medical Center,140,87,1.8,8.0,2.43,-4.0,1.26
+S6_034,0.0008,major_earthquake,H1,Central Hospital,220,154,2.0,8.0,2.7,9.49,-5.55
+S6_034,0.0008,major_earthquake,H2,North Clinic,160,129,2.2,8.0,3.0,12.57,5.94
+S6_034,0.0008,major_earthquake,H3,South Medical Center,140,97,1.8,8.0,2.43,3.93,3.13
+S6_035,0.0008,major_earthquake,H1,Central Hospital,220,161,2.0,8.0,2.7,11.06,-0.05
+S6_035,0.0008,major_earthquake,H2,North Clinic,160,130,2.2,8.0,3.0,11.96,7.95
+S6_035,0.0008,major_earthquake,H3,South Medical Center,140,90,1.8,8.0,2.43,-0.45,0.8
+S6_036,0.0008,major_earthquake,H1,Central Hospital,220,155,2.0,8.0,2.7,2.15,2.38
+S6_036,0.0008,major_earthquake,H2,North Clinic,160,107,2.2,8.0,3.0,-2.98,0.07
+S6_036,0.0008,major_earthquake,H3,South Medical Center,140,87,1.8,8.0,2.43,1.41,-3.95
+S6_037,0.0008,major_earthquake,H1,Central Hospital,220,137,2.0,8.0,2.7,-5.41,-7.36
+S6_037,0.0008,major_earthquake,H2,North Clinic,160,115,2.2,8.0,3.0,1.8,2.83
+S6_037,0.0008,major_earthquake,H3,South Medical Center,140,79,1.8,8.0,2.43,1.9,-13.01
+S6_038,0.0008,major_earthquake,H1,Central Hospital,220,151,2.0,8.0,2.7,2.97,-2.47
+S6_038,0.0008,major_earthquake,H2,North Clinic,160,108,2.2,8.0,3.0,-5.52,3.3
+S6_038,0.0008,major_earthquake,H3,South Medical Center,140,86,1.8,8.0,2.43,-1.78,-1.98
+S6_039,0.0008,major_earthquake,H1,Central Hospital,220,153,2.0,8.0,2.7,-2.34,4.98
+S6_039,0.0008,major_earthquake,H2,North Clinic,160,107,2.2,8.0,3.0,2.4,-4.97
+S6_039,0.0008,major_earthquake,H3,South Medical Center,140,89,1.8,8.0,2.43,-2.36,1.47
+S6_040,0.0008,major_earthquake,H1,Central Hospital,220,146,2.0,8.0,2.7,0.04,-3.82
+S6_040,0.0008,major_earthquake,H2,North Clinic,160,95,2.2,8.0,3.0,-8.14,-6.9
+S6_040,0.0008,major_earthquake,H3,South Medical Center,140,74,1.8,8.0,2.43,-10.73,-4.97
+S6_041,0.0008,major_earthquake,H1,Central Hospital,220,140,2.0,8.0,2.7,-4.25,-5.61
+S6_041,0.0008,major_earthquake,H2,North Clinic,160,111,2.2,8.0,3.0,-3.05,3.83
+S6_041,0.0008,major_earthquake,H3,South Medical Center,140,78,1.8,8.0,2.43,-5.52,-6.12
+S6_042,0.0008,major_earthquake,H1,Central Hospital,220,146,2.0,8.0,2.7,-6.81,2.92
+S6_042,0.0008,major_earthquake,H2,North Clinic,160,108,2.2,8.0,3.0,0.04,-2.46
+S6_042,0.0008,major_earthquake,H3,South Medical Center,140,64,1.8,8.0,2.43,-16.91,-9.05
+S6_043,0.0008,major_earthquake,H1,Central Hospital,220,158,2.0,8.0,2.7,-0.69,8.61
+S6_043,0.0008,major_earthquake,H2,North Clinic,160,115,2.2,8.0,3.0,3.81,1.36
+S6_043,0.0008,major_earthquake,H3,South Medical Center,140,102,1.8,8.0,2.43,9.66,1.9
+S6_044,0.0008,major_earthquake,H1,Central Hospital,220,155,2.0,8.0,2.7,5.41,-0.16
+S6_044,0.0008,major_earthquake,H2,North Clinic,160,112,2.2,8.0,3.0,-0.56,2.65
+S6_044,0.0008,major_earthquake,H3,South Medical Center,140,90,1.8,8.0,2.43,0.57,-0.98
+S6_045,0.0008,major_earthquake,H1,Central Hospital,220,144,2.0,8.0,2.7,-4.3,-1.31
+S6_045,0.0008,major_earthquake,H2,North Clinic,160,113,2.2,8.0,3.0,2.34,0.28
+S6_045,0.0008,major_earthquake,H3,South Medical Center,140,94,1.8,8.0,2.43,10.27,-6.43
+S6_046,0.0008,major_earthquake,H1,Central Hospital,220,138,2.0,8.0,2.7,-7.03,-4.58
+S6_046,0.0008,major_earthquake,H2,North Clinic,160,117,2.2,8.0,3.0,4.98,2.04
+S6_046,0.0008,major_earthquake,H3,South Medical Center,140,96,1.8,8.0,2.43,3.83,1.94
+S6_047,0.0008,major_earthquake,H1,Central Hospital,220,165,2.0,8.0,2.7,11.5,3.89
+S6_047,0.0008,major_earthquake,H2,North Clinic,160,115,2.2,8.0,3.0,5.75,-0.48
+S6_047,0.0008,major_earthquake,H3,South Medical Center,140,92,1.8,8.0,2.43,3.93,-2.34
+S6_048,0.0008,major_earthquake,H1,Central Hospital,220,158,2.0,8.0,2.7,5.05,3.15
+S6_048,0.0008,major_earthquake,H2,North Clinic,160,116,2.2,8.0,3.0,5.02,0.66
+S6_048,0.0008,major_earthquake,H3,South Medical Center,140,96,1.8,8.0,2.43,1.46,4.09
+S6_049,0.0008,major_earthquake,H1,Central Hospital,220,148,2.0,8.0,2.7,2.29,-4.02
+S6_049,0.0008,major_earthquake,H2,North Clinic,160,101,2.2,8.0,3.0,-0.18,-9.04
+S6_049,0.0008,major_earthquake,H3,South Medical Center,140,93,1.8,8.0,2.43,-4.79,7.72
+S7_000,0.0004,multi_wave_pandemic,H1,Central Hospital,220,200,2.0,8.0,2.7,-4.22,3.86
+S7_000,0.0004,multi_wave_pandemic,H2,North Clinic,160,133,2.2,8.0,3.0,-5.13,-1.4
+S7_000,0.0004,multi_wave_pandemic,H3,South Medical Center,140,123,1.8,8.0,2.43,5.83,-2.56
+S7_001,0.0004,multi_wave_pandemic,H1,Central Hospital,220,189,2.0,8.0,2.7,-12.47,1.06
+S7_001,0.0004,multi_wave_pandemic,H2,North Clinic,160,132,2.2,8.0,3.0,-10.42,1.95
+S7_001,0.0004,multi_wave_pandemic,H3,South Medical Center,140,120,1.8,8.0,2.43,-2.58,2.48
+S7_002,0.0004,multi_wave_pandemic,H1,Central Hospital,220,194,2.0,8.0,2.7,-4.7,-1.3
+S7_002,0.0004,multi_wave_pandemic,H2,North Clinic,160,134,2.2,8.0,3.0,-6.37,0.31
+S7_002,0.0004,multi_wave_pandemic,H3,South Medical Center,140,114,1.8,8.0,2.43,-6.53,0.54
+S7_003,0.0004,multi_wave_pandemic,H1,Central Hospital,220,201,2.0,8.0,2.7,0.38,0.22
+S7_003,0.0004,multi_wave_pandemic,H2,North Clinic,160,136,2.2,8.0,3.0,-0.33,-4.05
+S7_003,0.0004,multi_wave_pandemic,H3,South Medical Center,140,115,1.8,8.0,2.43,-4.85,0.34
+S7_004,0.0004,multi_wave_pandemic,H1,Central Hospital,220,205,2.0,8.0,2.7,7.64,-2.62
+S7_004,0.0004,multi_wave_pandemic,H2,North Clinic,160,138,2.2,8.0,3.0,-3.97,2.11
+S7_004,0.0004,multi_wave_pandemic,H3,South Medical Center,140,121,1.8,8.0,2.43,-4.44,5.34
+S7_005,0.0004,multi_wave_pandemic,H1,Central Hospital,220,200,2.0,8.0,2.7,-1.93,1.62
+S7_005,0.0004,multi_wave_pandemic,H2,North Clinic,160,143,2.2,8.0,3.0,6.98,-3.99
+S7_005,0.0004,multi_wave_pandemic,H3,South Medical Center,140,110,1.8,8.0,2.43,-7.99,-1.76
+S7_006,0.0004,multi_wave_pandemic,H1,Central Hospital,220,206,2.0,8.0,2.7,-0.65,6.3
+S7_006,0.0004,multi_wave_pandemic,H2,North Clinic,160,140,2.2,8.0,3.0,0.17,-0.47
+S7_006,0.0004,multi_wave_pandemic,H3,South Medical Center,140,113,1.8,8.0,2.43,-4.87,-1.66
+S7_007,0.0004,multi_wave_pandemic,H1,Central Hospital,220,175,2.0,8.0,2.7,-21.28,-3.47
+S7_007,0.0004,multi_wave_pandemic,H2,North Clinic,160,120,2.2,8.0,3.0,-14.83,-4.71
+S7_007,0.0004,multi_wave_pandemic,H3,South Medical Center,140,110,1.8,8.0,2.43,-14.84,4.68
+S7_008,0.0004,multi_wave_pandemic,H1,Central Hospital,220,206,2.0,8.0,2.7,2.33,3.66
+S7_008,0.0004,multi_wave_pandemic,H2,North Clinic,160,139,2.2,8.0,3.0,2.87,-4.23
+S7_008,0.0004,multi_wave_pandemic,H3,South Medical Center,140,116,1.8,8.0,2.43,1.66,-5.38
+S7_009,0.0004,multi_wave_pandemic,H1,Central Hospital,220,196,2.0,8.0,2.7,-0.43,-4.05
+S7_009,0.0004,multi_wave_pandemic,H2,North Clinic,160,143,2.2,8.0,3.0,-0.41,3.39
+S7_009,0.0004,multi_wave_pandemic,H3,South Medical Center,140,112,1.8,8.0,2.43,-3.9,-3.72
+S7_010,0.0004,multi_wave_pandemic,H1,Central Hospital,220,211,2.0,8.0,2.7,8.01,3.17
+S7_010,0.0004,multi_wave_pandemic,H2,North Clinic,160,141,2.2,8.0,3.0,-2.15,3.02
+S7_010,0.0004,multi_wave_pandemic,H3,South Medical Center,140,130,1.8,8.0,2.43,3.81,6.24
+S7_011,0.0004,multi_wave_pandemic,H1,Central Hospital,220,175,2.0,8.0,2.7,-22.12,-3.08
+S7_011,0.0004,multi_wave_pandemic,H2,North Clinic,160,114,2.2,8.0,3.0,-21.62,-4.25
+S7_011,0.0004,multi_wave_pandemic,H3,South Medical Center,140,107,1.8,8.0,2.43,-8.09,-5.39
+S7_012,0.0004,multi_wave_pandemic,H1,Central Hospital,220,203,2.0,8.0,2.7,3.2,0.26
+S7_012,0.0004,multi_wave_pandemic,H2,North Clinic,160,140,2.2,8.0,3.0,-2.32,2.41
+S7_012,0.0004,multi_wave_pandemic,H3,South Medical Center,140,128,1.8,8.0,2.43,5.27,2.54
+S7_013,0.0004,multi_wave_pandemic,H1,Central Hospital,220,204,2.0,8.0,2.7,2.95,1.17
+S7_013,0.0004,multi_wave_pandemic,H2,North Clinic,160,121,2.2,8.0,3.0,-9.52,-9.31
+S7_013,0.0004,multi_wave_pandemic,H3,South Medical Center,140,109,1.8,8.0,2.43,-5.76,-5.01
+S7_014,0.0004,multi_wave_pandemic,H1,Central Hospital,220,209,2.0,8.0,2.7,11.73,-2.34
+S7_014,0.0004,multi_wave_pandemic,H2,North Clinic,160,162,2.2,8.0,3.0,11.58,10.05
+S7_014,0.0004,multi_wave_pandemic,H3,South Medical Center,140,132,1.8,8.0,2.43,9.65,2.74
+S7_015,0.0004,multi_wave_pandemic,H1,Central Hospital,220,192,2.0,8.0,2.7,-8.44,0.18
+S7_015,0.0004,multi_wave_pandemic,H2,North Clinic,160,136,2.2,8.0,3.0,-5.28,0.87
+S7_015,0.0004,multi_wave_pandemic,H3,South Medical Center,140,112,1.8,8.0,2.43,1.05,-9.28
+S7_016,0.0004,multi_wave_pandemic,H1,Central Hospital,220,196,2.0,8.0,2.7,0.53,-4.07
+S7_016,0.0004,multi_wave_pandemic,H2,North Clinic,160,139,2.2,8.0,3.0,1.67,-2.7
+S7_016,0.0004,multi_wave_pandemic,H3,South Medical Center,140,120,1.8,8.0,2.43,1.32,-0.88
+S7_017,0.0004,multi_wave_pandemic,H1,Central Hospital,220,202,2.0,8.0,2.7,3.02,-1.47
+S7_017,0.0004,multi_wave_pandemic,H2,North Clinic,160,137,2.2,8.0,3.0,-1.13,-2.28
+S7_017,0.0004,multi_wave_pandemic,H3,South Medical Center,140,118,1.8,8.0,2.43,-4.52,2.19
+S7_018,0.0004,multi_wave_pandemic,H1,Central Hospital,220,203,2.0,8.0,2.7,-1.6,4.9
+S7_018,0.0004,multi_wave_pandemic,H2,North Clinic,160,140,2.2,8.0,3.0,-6.91,6.46
+S7_018,0.0004,multi_wave_pandemic,H3,South Medical Center,140,126,1.8,8.0,2.43,-3.23,8.89
+S7_019,0.0004,multi_wave_pandemic,H1,Central Hospital,220,206,2.0,8.0,2.7,6.08,-0.49
+S7_019,0.0004,multi_wave_pandemic,H2,North Clinic,160,142,2.2,8.0,3.0,5.63,-3.25
+S7_019,0.0004,multi_wave_pandemic,H3,South Medical Center,140,117,1.8,8.0,2.43,4.66,-7.43
+S7_020,0.0004,multi_wave_pandemic,H1,Central Hospital,220,196,2.0,8.0,2.7,-0.37,-3.97
+S7_020,0.0004,multi_wave_pandemic,H2,North Clinic,160,131,2.2,8.0,3.0,-3.02,-5.5
+S7_020,0.0004,multi_wave_pandemic,H3,South Medical Center,140,123,1.8,8.0,2.43,2.01,1.17
+S7_021,0.0004,multi_wave_pandemic,H1,Central Hospital,220,208,2.0,8.0,2.7,6.33,1.39
+S7_021,0.0004,multi_wave_pandemic,H2,North Clinic,160,138,2.2,8.0,3.0,-3.96,2.43
+S7_021,0.0004,multi_wave_pandemic,H3,South Medical Center,140,108,1.8,8.0,2.43,-6.72,-5.39
+S7_022,0.0004,multi_wave_pandemic,H1,Central Hospital,220,201,2.0,8.0,2.7,5.88,-5.22
+S7_022,0.0004,multi_wave_pandemic,H2,North Clinic,160,155,2.2,8.0,3.0,14.92,-0.2
+S7_022,0.0004,multi_wave_pandemic,H3,South Medical Center,140,123,1.8,8.0,2.43,3.16,-0.45
+S7_023,0.0004,multi_wave_pandemic,H1,Central Hospital,220,206,2.0,8.0,2.7,10.44,-4.03
+S7_023,0.0004,multi_wave_pandemic,H2,North Clinic,160,135,2.2,8.0,3.0,2.33,-6.97
+S7_023,0.0004,multi_wave_pandemic,H3,South Medical Center,140,129,1.8,8.0,2.43,3.8,4.71
+S7_024,0.0004,multi_wave_pandemic,H1,Central Hospital,220,187,2.0,8.0,2.7,-8.78,-3.72
+S7_024,0.0004,multi_wave_pandemic,H2,North Clinic,160,138,2.2,8.0,3.0,-1.62,-0.27
+S7_024,0.0004,multi_wave_pandemic,H3,South Medical Center,140,128,1.8,8.0,2.43,2.28,5.83
+S7_025,0.0004,multi_wave_pandemic,H1,Central Hospital,220,198,2.0,8.0,2.7,9.5,-11.91
+S7_025,0.0004,multi_wave_pandemic,H2,North Clinic,160,150,2.2,8.0,3.0,5.03,5.17
+S7_025,0.0004,multi_wave_pandemic,H3,South Medical Center,140,119,1.8,8.0,2.43,4.75,-5.91
+S7_026,0.0004,multi_wave_pandemic,H1,Central Hospital,220,204,2.0,8.0,2.7,1.35,2.75
+S7_026,0.0004,multi_wave_pandemic,H2,North Clinic,160,124,2.2,8.0,3.0,-3.75,-11.89
+S7_026,0.0004,multi_wave_pandemic,H3,South Medical Center,140,111,1.8,8.0,2.43,-4.6,-3.92
+S7_027,0.0004,multi_wave_pandemic,H1,Central Hospital,220,205,2.0,8.0,2.7,0.65,3.95
+S7_027,0.0004,multi_wave_pandemic,H2,North Clinic,160,141,2.2,8.0,3.0,-2.48,3.04
+S7_027,0.0004,multi_wave_pandemic,H3,South Medical Center,140,118,1.8,8.0,2.43,-0.93,-1.07
+S7_028,0.0004,multi_wave_pandemic,H1,Central Hospital,220,209,2.0,8.0,2.7,14.27,-5.45
+S7_028,0.0004,multi_wave_pandemic,H2,North Clinic,160,153,2.2,8.0,3.0,9.74,3.16
+S7_028,0.0004,multi_wave_pandemic,H3,South Medical Center,140,135,1.8,8.0,2.43,10.92,4.54
+S7_029,0.0004,multi_wave_pandemic,H1,Central Hospital,220,204,2.0,8.0,2.7,-5.23,9.43
+S7_029,0.0004,multi_wave_pandemic,H2,North Clinic,160,130,2.2,8.0,3.0,-7.02,-2.73
+S7_029,0.0004,multi_wave_pandemic,H3,South Medical Center,140,122,1.8,8.0,2.43,12.23,-9.92
+S7_030,0.0004,multi_wave_pandemic,H1,Central Hospital,220,196,2.0,8.0,2.7,-4.89,1.38
+S7_030,0.0004,multi_wave_pandemic,H2,North Clinic,160,132,2.2,8.0,3.0,-10.32,2.29
+S7_030,0.0004,multi_wave_pandemic,H3,South Medical Center,140,113,1.8,8.0,2.43,-8.75,1.82
+S7_031,0.0004,multi_wave_pandemic,H1,Central Hospital,220,191,2.0,8.0,2.7,-1.56,-7.9
+S7_031,0.0004,multi_wave_pandemic,H2,North Clinic,160,142,2.2,8.0,3.0,0.05,2.23
+S7_031,0.0004,multi_wave_pandemic,H3,South Medical Center,140,112,1.8,8.0,2.43,-13.45,5.71
+S7_032,0.0004,multi_wave_pandemic,H1,Central Hospital,220,200,2.0,8.0,2.7,-4.46,4.64
+S7_032,0.0004,multi_wave_pandemic,H2,North Clinic,160,141,2.2,8.0,3.0,-11.52,12.86
+S7_032,0.0004,multi_wave_pandemic,H3,South Medical Center,140,109,1.8,8.0,2.43,-7.15,-3.75
+S7_033,0.0004,multi_wave_pandemic,H1,Central Hospital,220,197,2.0,8.0,2.7,1.88,-4.45
+S7_033,0.0004,multi_wave_pandemic,H2,North Clinic,160,130,2.2,8.0,3.0,3.44,-13.81
+S7_033,0.0004,multi_wave_pandemic,H3,South Medical Center,140,123,1.8,8.0,2.43,4.7,-2.17
+S7_034,0.0004,multi_wave_pandemic,H1,Central Hospital,220,204,2.0,8.0,2.7,3.95,0.07
+S7_034,0.0004,multi_wave_pandemic,H2,North Clinic,160,138,2.2,8.0,3.0,-7.96,6.46
+S7_034,0.0004,multi_wave_pandemic,H3,South Medical Center,140,118,1.8,8.0,2.43,-3.74,1.31
+S7_035,0.0004,multi_wave_pandemic,H1,Central Hospital,220,199,2.0,8.0,2.7,-1.14,0.28
+S7_035,0.0004,multi_wave_pandemic,H2,North Clinic,160,135,2.2,8.0,3.0,-7.46,2.48
+S7_035,0.0004,multi_wave_pandemic,H3,South Medical Center,140,114,1.8,8.0,2.43,-7.91,1.83
+S7_036,0.0004,multi_wave_pandemic,H1,Central Hospital,220,208,2.0,8.0,2.7,9.55,-1.35
+S7_036,0.0004,multi_wave_pandemic,H2,North Clinic,160,140,2.2,8.0,3.0,-1.72,2.1
+S7_036,0.0004,multi_wave_pandemic,H3,South Medical Center,140,122,1.8,8.0,2.43,-3.81,6.29
+S7_037,0.0004,multi_wave_pandemic,H1,Central Hospital,220,187,2.0,8.0,2.7,-15.99,2.58
+S7_037,0.0004,multi_wave_pandemic,H2,North Clinic,160,127,2.2,8.0,3.0,-2.26,-11.1
+S7_037,0.0004,multi_wave_pandemic,H3,South Medical Center,140,125,1.8,8.0,2.43,-2.02,7.35
+S7_038,0.0004,multi_wave_pandemic,H1,Central Hospital,220,188,2.0,8.0,2.7,-4.21,-7.76
+S7_038,0.0004,multi_wave_pandemic,H2,North Clinic,160,145,2.2,8.0,3.0,3.74,1.3
+S7_038,0.0004,multi_wave_pandemic,H3,South Medical Center,140,117,1.8,8.0,2.43,-2.8,-0.17
+S7_039,0.0004,multi_wave_pandemic,H1,Central Hospital,220,217,2.0,8.0,2.7,12.76,4.17
+S7_039,0.0004,multi_wave_pandemic,H2,North Clinic,160,143,2.2,8.0,3.0,-2.48,5.25
+S7_039,0.0004,multi_wave_pandemic,H3,South Medical Center,140,122,1.8,8.0,2.43,-2.53,4.22
+S7_040,0.0004,multi_wave_pandemic,H1,Central Hospital,220,182,2.0,8.0,2.7,-17.25,-0.94
+S7_040,0.0004,multi_wave_pandemic,H2,North Clinic,160,138,2.2,8.0,3.0,-5.75,4.06
+S7_040,0.0004,multi_wave_pandemic,H3,South Medical Center,140,111,1.8,8.0,2.43,-3.76,-4.85
+S7_041,0.0004,multi_wave_pandemic,H1,Central Hospital,220,210,2.0,8.0,2.7,6.29,3.75
+S7_041,0.0004,multi_wave_pandemic,H2,North Clinic,160,139,2.2,8.0,3.0,-4.08,3.26
+S7_041,0.0004,multi_wave_pandemic,H3,South Medical Center,140,124,1.8,8.0,2.43,0.7,3.11
+S7_042,0.0004,multi_wave_pandemic,H1,Central Hospital,220,185,2.0,8.0,2.7,-3.74,-10.93
+S7_042,0.0004,multi_wave_pandemic,H2,North Clinic,160,144,2.2,8.0,3.0,3.35,0.75
+S7_042,0.0004,multi_wave_pandemic,H3,South Medical Center,140,123,1.8,8.0,2.43,1.62,1.62
+S7_043,0.0004,multi_wave_pandemic,H1,Central Hospital,220,192,2.0,8.0,2.7,-3.12,-4.99
+S7_043,0.0004,multi_wave_pandemic,H2,North Clinic,160,132,2.2,8.0,3.0,-6.6,-1.76
+S7_043,0.0004,multi_wave_pandemic,H3,South Medical Center,140,108,1.8,8.0,2.43,-14.85,2.4
+S7_044,0.0004,multi_wave_pandemic,H1,Central Hospital,220,184,2.0,8.0,2.7,-13.86,-1.94
+S7_044,0.0004,multi_wave_pandemic,H2,North Clinic,160,121,2.2,8.0,3.0,-14.48,-4.42
+S7_044,0.0004,multi_wave_pandemic,H3,South Medical Center,140,103,1.8,8.0,2.43,-20.95,3.94
+S7_045,0.0004,multi_wave_pandemic,H1,Central Hospital,220,215,2.0,8.0,2.7,7.28,7.96
+S7_045,0.0004,multi_wave_pandemic,H2,North Clinic,160,145,2.2,8.0,3.0,6.68,-1.77
+S7_045,0.0004,multi_wave_pandemic,H3,South Medical Center,140,115,1.8,8.0,2.43,7.04,-12.2
+S7_046,0.0004,multi_wave_pandemic,H1,Central Hospital,220,196,2.0,8.0,2.7,-3.38,-0.43
+S7_046,0.0004,multi_wave_pandemic,H2,North Clinic,160,133,2.2,8.0,3.0,-5.4,-1.37
+S7_046,0.0004,multi_wave_pandemic,H3,South Medical Center,140,124,1.8,8.0,2.43,-0.4,3.95
+S7_047,0.0004,multi_wave_pandemic,H1,Central Hospital,220,210,2.0,8.0,2.7,12.99,-3.07
+S7_047,0.0004,multi_wave_pandemic,H2,North Clinic,160,139,2.2,8.0,3.0,6.96,-8.04
+S7_047,0.0004,multi_wave_pandemic,H3,South Medical Center,140,132,1.8,8.0,2.43,8.94,3.34
+S7_048,0.0004,multi_wave_pandemic,H1,Central Hospital,220,189,2.0,8.0,2.7,-14.45,3.53
+S7_048,0.0004,multi_wave_pandemic,H2,North Clinic,160,128,2.2,8.0,3.0,-3.22,-8.3
+S7_048,0.0004,multi_wave_pandemic,H3,South Medical Center,140,119,1.8,8.0,2.43,-2.49,1.54
+S7_049,0.0004,multi_wave_pandemic,H1,Central Hospital,220,204,2.0,8.0,2.7,4.68,-0.92
+S7_049,0.0004,multi_wave_pandemic,H2,North Clinic,160,140,2.2,8.0,3.0,3.31,-3.22
+S7_049,0.0004,multi_wave_pandemic,H3,South Medical Center,140,133,1.8,8.0,2.43,9.66,2.94
