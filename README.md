@@ -249,4 +249,4 @@ In conclusion, this study demonstrates that while Deterministic and Stochastic m
   Chen, Z., Melvyn, S., Peng Xiong. (2020). *Robust stochastic optimization made easy with RSOME.* Management Science 66(8) 3329-3339.  
   [https://xiongpengnus.github.io/rsome/](https://xiongpengnus.github.io/rsome/)  
 * Lee, C.-Y. (2025). Operations Research Applications and Implementation (IM5059).
-Department of Information Management, National Taiwan University. Course materials.
+Department of Information Management, National Taiwan University. Course materials.[https://github.com/PO-LAB/Operations-Research-Applications](https://github.com/PO-LAB/Operations-Research-Applications)
