@@ -60,7 +60,7 @@ Table of Decision
 | oh,s | surplus (supply over demand) at hospital h in scenario s. |
 
 **Deterministic Linear Programming (LP):**   
-![][image1]  
+![](images/image1.png) 
 Stock Capacity: the total allocation units cannot exceed the total preposition stock.  
 Hospital Capacity: allocation cannot exceed hospital capacity.  
 Surge Capacity: surge units cannot exceed surge capacity.  
@@ -69,19 +69,19 @@ Demand Satisfaction: the allocation units \+ surge units \+ shortage units \- su
 This model will ignore the risk of the variability of disaster scenarios. Especially for those extreme scenarios that happen in a low chances, although the demand might be high, it won’t make this model become a lot conservative, as it’s weight is low.
 
 **Stochastic Programming (SP)**:  
-![][image2]  
+![](images/image2.png)
 Instead of a single fixed cost, it minimizes the first-stage allocation cost plus the *expected* second-stage cost. The meaning of the  constraints is similar to the LP, but it consider different scenario’s demand and have more constraints in consequence (for each demand, e.g. Surge Capacity, Demand Satisfaction, Non Negativity).   
 While this model improves upon the deterministic approach by incorporating variability and probability, it focuses on optimizing the average performance. Consequently, it may still result in high costs or significant shortages in extreme, low-probability "tail" events. Its effectiveness also heavily depends on whether the sampled scenarios
 
 **Robust Optimization (RO):**   
 The RO model aims to cover the worst-case scenario and then minimize the total cost. Unlike the SP model, which optimizes based on an average (expectation), the RO model seeks a solution that remains feasible and cost-efficient even under the most extreme demand realizations within a defined uncertainty set.  
 The general form of this problem can be written as a "Min-Max-Min" formulation:  
-![][image3]  
+![](images/image3.png) 
 As the maximum part (finding the worst-case scenario) is not linear, we cannot solve it directly with standard Linear Programming solvers. To address this, we reformulate the problem by introducing an auxiliary variable Z,, which represents the **worst-case recourse cost**. We then constrain Z to be greater than or equal to the recourse cost of *any* possible scenario in the uncertainty set.
 
 This transforms the complex nested optimization into the following linear formulation.
 
-![][image4]
+![](images/image4.png)
 
 However, when applying the **Box Uncertainty Set** or **EV-Box Uncertainty Set** in this case, the problem can be simplified significantly. These uncertainty sets assume that the demand for each hospital is independent.
 
@@ -89,7 +89,7 @@ Since the recourse cost (comprising surge costs and shortage penalties) is monot
 
 Therefore, the Z variable (Worst-Case Cost tracker) becomes redundant, and the complex robust formulation collapses into a deterministic model. This simplified model is structurally identical to the Expectation Deterministic (LP) model, with one critical difference: the demand parameter used is not the expectation but the upper bound of demand.
 
-![][image5]  
+![](images/image5.png)
 Under this formulation, the model is still aimed at facing the worst case. Even though the mathematical structure now resembles a standard deterministic linear program, it is effectively securing the system against the most extreme demand outcome defined by our uncertainty sets.   
 By optimizing for the upper bound demand, we implicitly guarantee that any other demand scenario will also be covered without exceeding the calculated worst-case cost. 
 
@@ -111,7 +111,7 @@ To properly evaluate robust optimization modelling, we construct uncertainty set
 
 As the name suggests the min-max box model constructs uncertainty sets by having the lower bound be the minimum of the observed demand and the upper bound being the maximum of the observed demand. Mathematically, the uncertainty sets are denoted as:
 
-![][image6]
+![](images/image6.png)
 
 For each hospital.
 
@@ -139,7 +139,7 @@ It is feasible for even the most extreme demands but not very cost-efficient, th
 
 The EV-box uncertainty sets are constructed around the mean demand, mathematically the model for the uncertainty sets is denoted as:
 
-![][image7]
+![](images/image7.png)
 
 Where  denotes the mean of the demand and  denotes the standard deviation of the demand. The parameter k determines how many standard deviations from the mean are included in constructing the uncertainty sets. K \= 0 would imply a deterministic model centered at the expected demand, and larger values of k would increase variability and risk coverage. Unlike the min-max model, the EV-model reflects variability rather than extreme values. A value of k \= 1 intuitively seems to create the best uncertainty sets, resulting in:
 
@@ -182,7 +182,7 @@ To assess the robustness of the hospital disaster response system and understand
 
 #### Different Uncertainty sets:
 
-![][image8]
+![](images/image8.png)
 
 We can observe that, generally, the more conservative the model is, the lower the Worst-Case Cost and the higher the Expected Cost. However, in the case of min max box with L=1.0, its performance is worse than with L=0.75. This may be because the box approach assumes that the worst case occurs independently for each hospital, which may not correspond to the actual worst-case scenario in practice.
 
@@ -191,8 +191,10 @@ We can observe that, generally, the more conservative the model is, the lower th
 Here we want to analyze how model performance varies when total available stock increases.
 
 - With low penalties for shortages, the models accept a certain level of unmet demand, and increasing stock mainly improves the expected cost.
+![](images/image9.png)
 
 - With high penalties, the robust and stochastic models react more aggressively, allocating resources earlier to avoid shortages.
+![](images/image10.png)
 
 This confirms that total stock capacity does not act in isolation, but rather its effect depends heavily on the penalty regime.
 
@@ -200,7 +202,7 @@ This confirms that total stock capacity does not act in isolation, but rather it
 
 #### By increasing the penalty for scarcity, all models reduce unmet demand, but at the cost of higher total costs. A relevant result is that, under high penalties, the stochastic model can approximate the performance of the robust model in worst-case terms, provided that the sample of scenarios is sufficiently representative.
 
-![][image9]
+![](images/image11.png)
 
 #### This result highlights that the performance of the SP critically depends on the quality of the sampling, while the RO offers explicit guarantees regardless of such representativeness.
 
@@ -214,9 +216,9 @@ The comparison between different robust optimization configurations under a fixe
 
 This confirms that the choice of the level and type of uncertainty is not a technical detail, but a strategic decision that determines the overall behavior of the system.
 
-![][image10]
+![](images/image13.png)
 
-![][image11]
+![](images/image12.png)
 
 ## Managerial Implications
 
